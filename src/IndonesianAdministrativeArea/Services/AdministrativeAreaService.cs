@@ -13,7 +13,7 @@ public static class AdministrativeAreaService
 
         Console.WriteLine($"Provinces: 100% (1/1)");
 
-        return JsonService.Deserializer.DeserializeProvinces(response);
+        return JsonService.Deserializer.DeserializeProvinceDtos(response);
     }
 
     public static async Task<List<RegencyDto>> GetIndonesianRegencies(List<ProvinceDto> indonesianProvinces)
@@ -29,7 +29,7 @@ public static class AdministrativeAreaService
             WilayahIdResponse? response = await HttpClientService.GetAdministrativeArea(url)
                 ?? throw new NullReferenceException();
 
-            List<RegencyDto> dtos = JsonService.Deserializer.DeserializeRegencies(response);
+            List<RegencyDto> dtos = JsonService.Deserializer.DeserializeRegencieDtos(response);
             indonesianRegencies.AddRange(dtos);
 
             progress++;

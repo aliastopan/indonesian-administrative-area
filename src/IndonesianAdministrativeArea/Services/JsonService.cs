@@ -9,14 +9,14 @@ public static class JsonService
 {
     public static class Deserializer
     {
-        public static List<ProvinceDto> DeserializeProvinces(WilayahIdResponse wilayahIdResponse)
+        public static List<ProvinceDto> DeserializeProvinceDtos(WilayahIdResponse wilayahIdResponse)
         {
             return wilayahIdResponse.Data
                 .Select(province => new ProvinceDto(province.Code, province.Name))
                 .OrderByProvinceCode();
         }
 
-        public static List<RegencyDto> DeserializeRegencies(WilayahIdResponse wilayahIdResponse)
+        public static List<RegencyDto> DeserializeRegencieDtos(WilayahIdResponse wilayahIdResponse)
         {
             return wilayahIdResponse.Data
                 .Select(regency => new RegencyDto(regency.Code, regency.Code.GetProvinceCode(), regency.Name))
