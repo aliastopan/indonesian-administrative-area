@@ -1,11 +1,11 @@
 using IndonesianAdministrativeArea.Models.Contracts;
-using IndonesianAdministrativeArea.Models.Regions;
+using IndonesianAdministrativeArea.Models.Dtos;
 
 namespace IndonesianAdministrativeArea.Services;
 
 public static class AdministrativeAreaService
 {
-    public static async Task<List<Province>> GetIndonesianProvinces()
+    public static async Task<List<ProvinceDto>> GetIndonesianProvinces()
     {
         string url = "https://wilayah.id/api/provinces.json";
         WilayahIdResponse? response = await HttpClientService.GetAdministrativeArea(url)

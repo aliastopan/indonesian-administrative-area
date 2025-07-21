@@ -1,12 +1,12 @@
-namespace IndonesianAdministrativeArea.Models.Regions;
+namespace IndonesianAdministrativeArea.Models.Dtos;
 
-public class Regency
+public class RegencyDto
 {
     public string Code { get; init; }
     public string ProvinceCode { get; init; }
     public string Name { get; init; }
 
-    public Regency(string code, string provinceCode, string name)
+    public RegencyDto(string code, string provinceCode, string name)
     {
         Code = code;
         ProvinceCode = provinceCode;

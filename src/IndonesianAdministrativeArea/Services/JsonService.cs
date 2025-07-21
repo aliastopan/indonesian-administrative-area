@@ -1,7 +1,7 @@
 using System.Text.Json;
 using IndonesianAdministrativeArea.Extensions;
 using IndonesianAdministrativeArea.Models.Contracts;
-using IndonesianAdministrativeArea.Models.Regions;
+using IndonesianAdministrativeArea.Models.Dtos;
 
 namespace IndonesianAdministrativeArea.Services;
 
@@ -9,13 +9,22 @@ public static class JsonService
 {
     public static class Deserializer
     {
-        public static List<Province> DeserializeProvinces(WilayahIdResponse wilayahIdResponse)
+        public static List<ProvinceDto> DeserializeProvinces(WilayahIdResponse wilayahIdResponse)
         {
-            List<Province> provinces = wilayahIdResponse.Data
-                .Select(province => new Province(province.Code, province.Name))
+            List<ProvinceDto> provinceDtoList = wilayahIdResponse.Data
+                .Select(province => new ProvinceDto(province.Code, province.Name))
                 .OrderByProvinceCode();
 
-            return provinces;
+            return provinceDtoList;
+        }
+
+        public static List<RegencyDto> DeserializeRegencies(WilayahIdResponse wilayahIdResponse)
+        {
+            List<RegencyDto> regencyDtoList = wilayahIdResponse.Data
+                .Select(regency => new RegencyDto(regency.Code, regency.Code.GetProvinceCode(), regency.Name))
+                .OrderByRegencyCode();
+
+            return regencyDtoList;
         }
     }
 

@@ -1,4 +1,4 @@
-﻿using IndonesianAdministrativeArea.Models.Regions;
+﻿using IndonesianAdministrativeArea.Models.Dtos;
 using IndonesianAdministrativeArea.Services;
 
 internal class Program
@@ -12,10 +12,10 @@ internal class Program
     {
         Console.WriteLine("Requesting administrative area...");
 
-        List<Province> provinces = await AdministrativeAreaService.GetIndonesianProvinces();
+        List<ProvinceDto> provinceDtoList = await AdministrativeAreaService.GetIndonesianProvinces();
 
         Console.WriteLine("Complete.\n");
 
-        JsonService.Serializer.SerializeToJson<Province>(provinces, "provinces.json");
+        JsonService.Serializer.SerializeToJson<ProvinceDto>(provinceDtoList, "provinces.json");
     }
 }

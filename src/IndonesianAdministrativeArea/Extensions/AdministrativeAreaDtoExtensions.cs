@@ -1,17 +1,17 @@
-using IndonesianAdministrativeArea.Models.Regions;
+using IndonesianAdministrativeArea.Models.Dtos;
 
 namespace IndonesianAdministrativeArea.Extensions;
 
-public static class AdministrativeAreaExtensions
+public static class AdministrativeAreaDtoExtensions
 {
-    public static List<Province> OrderByProvinceCode(this IEnumerable<Province> provinces)
+    public static List<ProvinceDto> OrderByProvinceCode(this IEnumerable<ProvinceDto> provinces)
     {
         return provinces
             .OrderBy(p => int.Parse(p.Code))
             .ToList();
     }
 
-    public static List<Regency> OrderByRegencyCode(this IEnumerable<Regency> regencies)
+    public static List<RegencyDto> OrderByRegencyCode(this IEnumerable<RegencyDto> regencies)
     {
         return regencies
             .OrderBy(r =>
@@ -29,7 +29,7 @@ public static class AdministrativeAreaExtensions
             .ToList();
     }
 
-    public static List<District> OrderByDistrictCode(this IEnumerable<District> districts)
+    public static List<DistrictDto> OrderByDistrictCode(this IEnumerable<DistrictDto> districts)
     {
         return districts
             .OrderBy(d =>
@@ -48,7 +48,7 @@ public static class AdministrativeAreaExtensions
             .ToList();
     }
 
-    public static List<Village> OrderByVillageCode(this IEnumerable<Village> villages)
+    public static List<VillageDto> OrderByVillageCode(this IEnumerable<VillageDto> villages)
     {
         return villages
             .OrderBy(v =>

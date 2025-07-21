@@ -1,11 +1,11 @@
-namespace IndonesianAdministrativeArea.Models.Regions;
+namespace IndonesianAdministrativeArea.Models.Dtos;
 
-public class Province
+public class ProvinceDto
 {
     public string Code { get; init; }
     public string Name { get; init; }
 
-    public Province(string code, string name)
+    public ProvinceDto(string code, string name)
     {
         Code = code;
         Name = name;
