@@ -12,10 +12,13 @@ internal class Program
     {
         Console.WriteLine("Requesting administrative area...");
 
-        List<ProvinceDto> provinceDtoList = await AdministrativeAreaService.GetIndonesianProvinces();
+        List<ProvinceDto> provinceDtos = await AdministrativeAreaService.GetIndonesianProvinces();
+        List<RegencyDto> regencyDtos = await AdministrativeAreaService.GetIndonesianRegencies(provinceDtos);
 
         Console.WriteLine("Complete.\n");
 
-        JsonService.Serializer.SerializeToJson<ProvinceDto>(provinceDtoList, "provinces.json");
+        JsonService.Serializer.SerializeToJson<ProvinceDto>(provinceDtos, "provinces.json");
+        JsonService.Serializer.SerializeToJson<RegencyDto>(regencyDtos, "regencies.json");
+
     }
 }
