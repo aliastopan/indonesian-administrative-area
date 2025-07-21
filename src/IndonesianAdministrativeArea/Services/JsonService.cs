@@ -22,6 +22,20 @@ public static class JsonService
                 .Select(regency => new RegencyDto(regency.Code, regency.Code.GetProvinceCode(), regency.Name))
                 .OrderByRegencyCode();
         }
+
+        public static List<DistrictDto> DeserializeDistrictDtos(WilayahIdResponse wilayahIdResponse)
+        {
+            return wilayahIdResponse.Data
+                .Select(district => new DistrictDto(district.Code, district.Code.GetRegencyCode(), district.Name))
+                .OrderByDistrictCode();
+        }
+
+        public static List<VillageDto> DeserializeVillageDtos(WilayahIdResponse wilayahIdResponse)
+        {
+            return wilayahIdResponse.Data
+                .Select(village => new VillageDto(village.Code, village.Code.GetDistrictCode(), village.Name))
+                .OrderByVillageCode();
+        }
     }
 
     public static class Serializer
