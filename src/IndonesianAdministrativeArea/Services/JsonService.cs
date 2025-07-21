@@ -11,20 +11,16 @@ public static class JsonService
     {
         public static List<ProvinceDto> DeserializeProvinces(WilayahIdResponse wilayahIdResponse)
         {
-            List<ProvinceDto> provinceDtoList = wilayahIdResponse.Data
+            return wilayahIdResponse.Data
                 .Select(province => new ProvinceDto(province.Code, province.Name))
                 .OrderByProvinceCode();
-
-            return provinceDtoList;
         }
 
         public static List<RegencyDto> DeserializeRegencies(WilayahIdResponse wilayahIdResponse)
         {
-            List<RegencyDto> regencyDtoList = wilayahIdResponse.Data
+            return wilayahIdResponse.Data
                 .Select(regency => new RegencyDto(regency.Code, regency.Code.GetProvinceCode(), regency.Name))
                 .OrderByRegencyCode();
-
-            return regencyDtoList;
         }
     }
 
