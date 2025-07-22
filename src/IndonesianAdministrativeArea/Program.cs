@@ -8,7 +8,27 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        GenerateUnitOfAreaIndex();
+        GenerateMeilisearchIndex();
+    }
+
+    private static void GenerateMeilisearchIndex()
+    {
+        Stopwatch stopwatch = new Stopwatch();
+
+        Console.WriteLine("Generating Meilisearch index...");
+
+        stopwatch.Start();
+
+        List<ProvinceProper> provinces = JsonService.Deserializer.DeserializeIndex<ProvinceProper>("province.index.json");
+        List<RegencyProper> regencies = JsonService.Deserializer.DeserializeIndex<RegencyProper>("regencies.index.json");
+        List<DistrictProper> districts = JsonService.Deserializer.DeserializeIndex<DistrictProper>("district.index.json");
+        List<VillageProper> villages = JsonService.Deserializer.DeserializeIndex<VillageProper>("villages.index.json");
+
+        IndexService.SerializeMeilisearchIndexJson(provinces, regencies, districts, villages);
+
+        stopwatch.Stop();
+
+        Console.WriteLine($"\nCompleted in {stopwatch.Elapsed.TotalSeconds:F2} seconds.\n");
     }
 
     private static void GenerateUnitOfAreaIndex()
