@@ -52,6 +52,19 @@ public record VillageProper
         _fullPath = $"{KelurahanDesa}, {Kecamatan}, {KabupatenKota}, {Provinsi}";
     }
 
+    [JsonConstructor]
+    public VillageProper(string id, string type, string name,
+        string district, string regency, string province, string fullPath)
+    {
+        _id = id;
+        _type = type;
+        _name = name;
+        _district = district;
+        _regency = regency.SplitRegencyType();
+        _province = province;
+        _fullPath = fullPath;
+    }
+
     private string GetVillageType()
     {
         string[] parts = _id.Split('.');

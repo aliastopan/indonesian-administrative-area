@@ -14,7 +14,7 @@ public record DistrictProper
     private readonly string _fullPath;
 
     [JsonPropertyName("id")]
-    public string Code => _id;
+    public string Id => _id;
 
     [JsonPropertyName("type")]
     public string Type => _type;
@@ -43,5 +43,17 @@ public record DistrictProper
         _name = districtDto.Name;
         _province = provinceDto.Name;
         _fullPath = $"{Kecamatan}, {KabupatenKota}, {Provinsi}";
+    }
+
+    [JsonConstructor]
+    public DistrictProper(string id, string type, string name,
+        string regency, string province, string fullPath)
+    {
+        _id = id;
+        _type = type;
+        _name = name;
+        _regency = regency.SplitRegencyType();
+        _province = province;
+        _fullPath = fullPath;
     }
 }

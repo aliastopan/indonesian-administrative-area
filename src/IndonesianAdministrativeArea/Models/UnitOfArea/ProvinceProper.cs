@@ -30,4 +30,13 @@ public record ProvinceProper
         _name = provinceDto.Name;
         _fullPath = $"{Provinsi}";
     }
+
+    [JsonConstructor]
+    public ProvinceProper(string id, string type,string name, string fullPath)
+    {
+        _id = id;
+        _type = type;
+        _name = name;
+        _fullPath = fullPath;
+    }
 }

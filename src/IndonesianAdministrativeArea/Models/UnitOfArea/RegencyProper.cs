@@ -39,4 +39,14 @@ public record RegencyProper
         _province = provinceDto.Name;
         _fullPath = $"{KabupatenKota}, {Provinsi}";
     }
+
+    [JsonConstructor]
+    public RegencyProper(string id, string type, string name,
+        string province, string fullPath)
+    {
+        _id = id;
+        _regency = (type, name);
+        _province = province;
+        _fullPath = fullPath;
+    }
 }
