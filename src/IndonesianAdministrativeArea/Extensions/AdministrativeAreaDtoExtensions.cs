@@ -1,4 +1,5 @@
 using IndonesianAdministrativeArea.Models.Dtos;
+using IndonesianAdministrativeArea.Models.UnitOfArea;
 
 namespace IndonesianAdministrativeArea.Extensions;
 
@@ -66,5 +67,18 @@ public static class AdministrativeAreaDtoExtensions
                 return BpsCode;
             })
             .ToList();
+    }
+
+    public static List<ProvinceProper> MapProvinceDtosToPropers(this List<ProvinceDto> provinceDtos)
+    {
+        List<ProvinceProper> provinces = [];
+
+        foreach (var dto in provinceDtos)
+        {
+            var province = new ProvinceProper(dto);
+            provinces.Add(province);
+        }
+
+        return provinces;
     }
 }

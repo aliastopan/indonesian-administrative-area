@@ -1,6 +1,5 @@
 using IndonesianAdministrativeArea.Models.Contracts;
 using IndonesianAdministrativeArea.Models.Dtos;
-using IndonesianAdministrativeArea.Models.UnitOfArea;
 
 namespace IndonesianAdministrativeArea.Services;
 
@@ -95,29 +94,4 @@ public static class AdministrativeAreaService
         return indonesianVillage;
     }
 
-    // public static List<TProper> Convert<TDto, TProper>(List<TDto> dtos)
-    // {
-    //     List<TProper> propers = [];
-
-    //     foreach (var dto in dtos)
-    //     {
-    //         var proper = (TProper)Activator.CreateInstance(typeof(TProper), dto)!;
-    //         propers.Add(proper);
-    //     }
-
-    //     return propers;
-    // }
-
-    public static List<ProvinceProper> Convert(List<ProvinceDto> provinceDtos)
-    {
-        List<ProvinceProper> provinces = [];
-
-        foreach (var dto in provinceDtos)
-        {
-            var province = new ProvinceProper(dto);
-            provinces.Add(province);
-        }
-
-        return provinces;
-    }
 }

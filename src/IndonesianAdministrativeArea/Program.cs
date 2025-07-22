@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using IndonesianAdministrativeArea.Extensions;
 using IndonesianAdministrativeArea.Models.Dtos;
 using IndonesianAdministrativeArea.Models.UnitOfArea;
 using IndonesianAdministrativeArea.Services;
@@ -15,7 +16,7 @@ internal class Program
         Console.WriteLine("Generating index...");
 
         List<ProvinceDto> provinceDtos = JsonService.Deserializer.DeserializeDto<ProvinceDto>("provinces.json");
-        List<ProvinceProper> provinces = AdministrativeAreaService.Convert(provinceDtos);
+        List<ProvinceProper> provinces = provinceDtos.MapProvinceDtosToPropers();
 
         Console.WriteLine($"Total provinsi: {provinces.Count}");
 
