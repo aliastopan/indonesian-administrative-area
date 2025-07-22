@@ -18,9 +18,16 @@ internal class Program
         List<ProvinceDto> provinceDtos = JsonService.Deserializer.DeserializeDto<ProvinceDto>("provinces.json");
         List<ProvinceProper> provinces = provinceDtos.MapProvinceDtosToPropers();
 
-        Console.WriteLine($"Total provinsi: {provinces.Count}");
+        Console.WriteLine($"Total Provinsi: {provinces.Count}");
+
+        List<RegencyDto> regencyDtos = JsonService.Deserializer.DeserializeDto<RegencyDto>("regencies.json");
+        List<RegencyProper> regencies = regencyDtos.MapRegencyDtosToPropers(provinceDtos);
+
+        Console.WriteLine($"Total Kabupaten/Kota: {provinces.Count}");
 
         IndexService.SerializeIndexJson<ProvinceProper>(provinces, "province.index.json");
+        IndexService.SerializeIndexJson<RegencyProper>(regencies, "regencies.index.json");
+
     }
 
     private static async Task GetAdministrativeAreasOfIndonesia()

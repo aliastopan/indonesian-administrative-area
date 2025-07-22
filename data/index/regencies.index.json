@@ -1,0 +1,3600 @@
+[
+  {
+    "id": "11.01",
+    "type": "Kabupaten",
+    "name": "Aceh Selatan",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Selatan, Aceh"
+  },
+  {
+    "id": "11.02",
+    "type": "Kabupaten",
+    "name": "Aceh Tenggara",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Tenggara, Aceh"
+  },
+  {
+    "id": "11.03",
+    "type": "Kabupaten",
+    "name": "Aceh Timur",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Timur, Aceh"
+  },
+  {
+    "id": "11.04",
+    "type": "Kabupaten",
+    "name": "Aceh Tengah",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Tengah, Aceh"
+  },
+  {
+    "id": "11.05",
+    "type": "Kabupaten",
+    "name": "Aceh Barat",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Barat, Aceh"
+  },
+  {
+    "id": "11.06",
+    "type": "Kabupaten",
+    "name": "Aceh Besar",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Besar, Aceh"
+  },
+  {
+    "id": "11.07",
+    "type": "Kabupaten",
+    "name": "Pidie",
+    "province": "Aceh",
+    "full_path": "Kabupaten Pidie, Aceh"
+  },
+  {
+    "id": "11.08",
+    "type": "Kabupaten",
+    "name": "Aceh Utara",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Utara, Aceh"
+  },
+  {
+    "id": "11.09",
+    "type": "Kabupaten",
+    "name": "Simeulue",
+    "province": "Aceh",
+    "full_path": "Kabupaten Simeulue, Aceh"
+  },
+  {
+    "id": "11.10",
+    "type": "Kabupaten",
+    "name": "Aceh Singkil",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Singkil, Aceh"
+  },
+  {
+    "id": "11.11",
+    "type": "Kabupaten",
+    "name": "Bireuen",
+    "province": "Aceh",
+    "full_path": "Kabupaten Bireuen, Aceh"
+  },
+  {
+    "id": "11.12",
+    "type": "Kabupaten",
+    "name": "Aceh Barat Daya",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Barat Daya, Aceh"
+  },
+  {
+    "id": "11.13",
+    "type": "Kabupaten",
+    "name": "Gayo Lues",
+    "province": "Aceh",
+    "full_path": "Kabupaten Gayo Lues, Aceh"
+  },
+  {
+    "id": "11.14",
+    "type": "Kabupaten",
+    "name": "Aceh Jaya",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Jaya, Aceh"
+  },
+  {
+    "id": "11.15",
+    "type": "Kabupaten",
+    "name": "Nagan Raya",
+    "province": "Aceh",
+    "full_path": "Kabupaten Nagan Raya, Aceh"
+  },
+  {
+    "id": "11.16",
+    "type": "Kabupaten",
+    "name": "Aceh Tamiang",
+    "province": "Aceh",
+    "full_path": "Kabupaten Aceh Tamiang, Aceh"
+  },
+  {
+    "id": "11.17",
+    "type": "Kabupaten",
+    "name": "Bener Meriah",
+    "province": "Aceh",
+    "full_path": "Kabupaten Bener Meriah, Aceh"
+  },
+  {
+    "id": "11.18",
+    "type": "Kabupaten",
+    "name": "Pidie Jaya",
+    "province": "Aceh",
+    "full_path": "Kabupaten Pidie Jaya, Aceh"
+  },
+  {
+    "id": "11.71",
+    "type": "Kota",
+    "name": "Banda Aceh",
+    "province": "Aceh",
+    "full_path": "Kota Banda Aceh, Aceh"
+  },
+  {
+    "id": "11.72",
+    "type": "Kota",
+    "name": "Sabang",
+    "province": "Aceh",
+    "full_path": "Kota Sabang, Aceh"
+  },
+  {
+    "id": "11.73",
+    "type": "Kota",
+    "name": "Lhokseumawe",
+    "province": "Aceh",
+    "full_path": "Kota Lhokseumawe, Aceh"
+  },
+  {
+    "id": "11.74",
+    "type": "Kota",
+    "name": "Langsa",
+    "province": "Aceh",
+    "full_path": "Kota Langsa, Aceh"
+  },
+  {
+    "id": "11.75",
+    "type": "Kota",
+    "name": "Subulussalam",
+    "province": "Aceh",
+    "full_path": "Kota Subulussalam, Aceh"
+  },
+  {
+    "id": "12.01",
+    "type": "Kabupaten",
+    "name": "Tapanuli Tengah",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Tapanuli Tengah, Sumatera Utara"
+  },
+  {
+    "id": "12.02",
+    "type": "Kabupaten",
+    "name": "Tapanuli Utara",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Tapanuli Utara, Sumatera Utara"
+  },
+  {
+    "id": "12.03",
+    "type": "Kabupaten",
+    "name": "Tapanuli Selatan",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Tapanuli Selatan, Sumatera Utara"
+  },
+  {
+    "id": "12.04",
+    "type": "Kabupaten",
+    "name": "Nias",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Nias, Sumatera Utara"
+  },
+  {
+    "id": "12.05",
+    "type": "Kabupaten",
+    "name": "Langkat",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Langkat, Sumatera Utara"
+  },
+  {
+    "id": "12.06",
+    "type": "Kabupaten",
+    "name": "Karo",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Karo, Sumatera Utara"
+  },
+  {
+    "id": "12.07",
+    "type": "Kabupaten",
+    "name": "Deli Serdang",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Deli Serdang, Sumatera Utara"
+  },
+  {
+    "id": "12.08",
+    "type": "Kabupaten",
+    "name": "Simalungun",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Simalungun, Sumatera Utara"
+  },
+  {
+    "id": "12.09",
+    "type": "Kabupaten",
+    "name": "Asahan",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Asahan, Sumatera Utara"
+  },
+  {
+    "id": "12.10",
+    "type": "Kabupaten",
+    "name": "Labuhanbatu",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Labuhanbatu, Sumatera Utara"
+  },
+  {
+    "id": "12.11",
+    "type": "Kabupaten",
+    "name": "Dairi",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Dairi, Sumatera Utara"
+  },
+  {
+    "id": "12.12",
+    "type": "Kabupaten",
+    "name": "Toba",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Toba, Sumatera Utara"
+  },
+  {
+    "id": "12.13",
+    "type": "Kabupaten",
+    "name": "Mandailing Natal",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Mandailing Natal, Sumatera Utara"
+  },
+  {
+    "id": "12.14",
+    "type": "Kabupaten",
+    "name": "Nias Selatan",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Nias Selatan, Sumatera Utara"
+  },
+  {
+    "id": "12.15",
+    "type": "Kabupaten",
+    "name": "Pakpak Bharat",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Pakpak Bharat, Sumatera Utara"
+  },
+  {
+    "id": "12.16",
+    "type": "Kabupaten",
+    "name": "Humbang Hasundutan",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Humbang Hasundutan, Sumatera Utara"
+  },
+  {
+    "id": "12.17",
+    "type": "Kabupaten",
+    "name": "Samosir",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Samosir, Sumatera Utara"
+  },
+  {
+    "id": "12.18",
+    "type": "Kabupaten",
+    "name": "Serdang Bedagai",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Serdang Bedagai, Sumatera Utara"
+  },
+  {
+    "id": "12.19",
+    "type": "Kabupaten",
+    "name": "Batu Bara",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Batu Bara, Sumatera Utara"
+  },
+  {
+    "id": "12.20",
+    "type": "Kabupaten",
+    "name": "Padang Lawas Utara",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Padang Lawas Utara, Sumatera Utara"
+  },
+  {
+    "id": "12.21",
+    "type": "Kabupaten",
+    "name": "Padang Lawas",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Padang Lawas, Sumatera Utara"
+  },
+  {
+    "id": "12.22",
+    "type": "Kabupaten",
+    "name": "Labuhanbatu Selatan",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Labuhanbatu Selatan, Sumatera Utara"
+  },
+  {
+    "id": "12.23",
+    "type": "Kabupaten",
+    "name": "Labuhanbatu Utara",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Labuhanbatu Utara, Sumatera Utara"
+  },
+  {
+    "id": "12.24",
+    "type": "Kabupaten",
+    "name": "Nias Utara",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Nias Utara, Sumatera Utara"
+  },
+  {
+    "id": "12.25",
+    "type": "Kabupaten",
+    "name": "Nias Barat",
+    "province": "Sumatera Utara",
+    "full_path": "Kabupaten Nias Barat, Sumatera Utara"
+  },
+  {
+    "id": "12.71",
+    "type": "Kota",
+    "name": "Medan",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Medan, Sumatera Utara"
+  },
+  {
+    "id": "12.72",
+    "type": "Kota",
+    "name": "Pematangsiantar",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Pematangsiantar, Sumatera Utara"
+  },
+  {
+    "id": "12.73",
+    "type": "Kota",
+    "name": "Sibolga",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Sibolga, Sumatera Utara"
+  },
+  {
+    "id": "12.74",
+    "type": "Kota",
+    "name": "Tanjungbalai",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Tanjungbalai, Sumatera Utara"
+  },
+  {
+    "id": "12.75",
+    "type": "Kota",
+    "name": "Binjai",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Binjai, Sumatera Utara"
+  },
+  {
+    "id": "12.76",
+    "type": "Kota",
+    "name": "Tebing Tinggi",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Tebing Tinggi, Sumatera Utara"
+  },
+  {
+    "id": "12.77",
+    "type": "Kota",
+    "name": "Padangsidimpuan",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Padangsidimpuan, Sumatera Utara"
+  },
+  {
+    "id": "12.78",
+    "type": "Kota",
+    "name": "Gunungsitoli",
+    "province": "Sumatera Utara",
+    "full_path": "Kota Gunungsitoli, Sumatera Utara"
+  },
+  {
+    "id": "13.01",
+    "type": "Kabupaten",
+    "name": "Pesisir Selatan",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Pesisir Selatan, Sumatera Barat"
+  },
+  {
+    "id": "13.02",
+    "type": "Kabupaten",
+    "name": "Solok",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Solok, Sumatera Barat"
+  },
+  {
+    "id": "13.03",
+    "type": "Kabupaten",
+    "name": "Sijunjung",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Sijunjung, Sumatera Barat"
+  },
+  {
+    "id": "13.04",
+    "type": "Kabupaten",
+    "name": "Tanah Datar",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Tanah Datar, Sumatera Barat"
+  },
+  {
+    "id": "13.05",
+    "type": "Kabupaten",
+    "name": "Padang Pariaman",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Padang Pariaman, Sumatera Barat"
+  },
+  {
+    "id": "13.06",
+    "type": "Kabupaten",
+    "name": "Agam",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Agam, Sumatera Barat"
+  },
+  {
+    "id": "13.07",
+    "type": "Kabupaten",
+    "name": "Lima Puluh Kota",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Lima Puluh Kota, Sumatera Barat"
+  },
+  {
+    "id": "13.08",
+    "type": "Kabupaten",
+    "name": "Pasaman",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Pasaman, Sumatera Barat"
+  },
+  {
+    "id": "13.09",
+    "type": "Kabupaten",
+    "name": "Kepulauan Mentawai",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Kepulauan Mentawai, Sumatera Barat"
+  },
+  {
+    "id": "13.10",
+    "type": "Kabupaten",
+    "name": "Dharmasraya",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Dharmasraya, Sumatera Barat"
+  },
+  {
+    "id": "13.11",
+    "type": "Kabupaten",
+    "name": "Solok Selatan",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Solok Selatan, Sumatera Barat"
+  },
+  {
+    "id": "13.12",
+    "type": "Kabupaten",
+    "name": "Pasaman Barat",
+    "province": "Sumatera Barat",
+    "full_path": "Kabupaten Pasaman Barat, Sumatera Barat"
+  },
+  {
+    "id": "13.71",
+    "type": "Kota",
+    "name": "Padang",
+    "province": "Sumatera Barat",
+    "full_path": "Kota Padang, Sumatera Barat"
+  },
+  {
+    "id": "13.72",
+    "type": "Kota",
+    "name": "Solok",
+    "province": "Sumatera Barat",
+    "full_path": "Kota Solok, Sumatera Barat"
+  },
+  {
+    "id": "13.73",
+    "type": "Kota",
+    "name": "Sawahlunto",
+    "province": "Sumatera Barat",
+    "full_path": "Kota Sawahlunto, Sumatera Barat"
+  },
+  {
+    "id": "13.74",
+    "type": "Kota",
+    "name": "Padang Panjang",
+    "province": "Sumatera Barat",
+    "full_path": "Kota Padang Panjang, Sumatera Barat"
+  },
+  {
+    "id": "13.75",
+    "type": "Kota",
+    "name": "Bukittinggi",
+    "province": "Sumatera Barat",
+    "full_path": "Kota Bukittinggi, Sumatera Barat"
+  },
+  {
+    "id": "13.76",
+    "type": "Kota",
+    "name": "Payakumbuh",
+    "province": "Sumatera Barat",
+    "full_path": "Kota Payakumbuh, Sumatera Barat"
+  },
+  {
+    "id": "13.77",
+    "type": "Kota",
+    "name": "Pariaman",
+    "province": "Sumatera Barat",
+    "full_path": "Kota Pariaman, Sumatera Barat"
+  },
+  {
+    "id": "14.01",
+    "type": "Kabupaten",
+    "name": "Kampar",
+    "province": "Riau",
+    "full_path": "Kabupaten Kampar, Riau"
+  },
+  {
+    "id": "14.02",
+    "type": "Kabupaten",
+    "name": "Indragiri Hulu",
+    "province": "Riau",
+    "full_path": "Kabupaten Indragiri Hulu, Riau"
+  },
+  {
+    "id": "14.03",
+    "type": "Kabupaten",
+    "name": "Bengkalis",
+    "province": "Riau",
+    "full_path": "Kabupaten Bengkalis, Riau"
+  },
+  {
+    "id": "14.04",
+    "type": "Kabupaten",
+    "name": "Indragiri Hilir",
+    "province": "Riau",
+    "full_path": "Kabupaten Indragiri Hilir, Riau"
+  },
+  {
+    "id": "14.05",
+    "type": "Kabupaten",
+    "name": "Pelalawan",
+    "province": "Riau",
+    "full_path": "Kabupaten Pelalawan, Riau"
+  },
+  {
+    "id": "14.06",
+    "type": "Kabupaten",
+    "name": "Rokan Hulu",
+    "province": "Riau",
+    "full_path": "Kabupaten Rokan Hulu, Riau"
+  },
+  {
+    "id": "14.07",
+    "type": "Kabupaten",
+    "name": "Rokan Hilir",
+    "province": "Riau",
+    "full_path": "Kabupaten Rokan Hilir, Riau"
+  },
+  {
+    "id": "14.08",
+    "type": "Kabupaten",
+    "name": "Siak",
+    "province": "Riau",
+    "full_path": "Kabupaten Siak, Riau"
+  },
+  {
+    "id": "14.09",
+    "type": "Kabupaten",
+    "name": "Kuantan Singingi",
+    "province": "Riau",
+    "full_path": "Kabupaten Kuantan Singingi, Riau"
+  },
+  {
+    "id": "14.10",
+    "type": "Kabupaten",
+    "name": "Kepulauan Meranti",
+    "province": "Riau",
+    "full_path": "Kabupaten Kepulauan Meranti, Riau"
+  },
+  {
+    "id": "14.71",
+    "type": "Kota",
+    "name": "Pekanbaru",
+    "province": "Riau",
+    "full_path": "Kota Pekanbaru, Riau"
+  },
+  {
+    "id": "14.72",
+    "type": "Kota",
+    "name": "Dumai",
+    "province": "Riau",
+    "full_path": "Kota Dumai, Riau"
+  },
+  {
+    "id": "15.01",
+    "type": "Kabupaten",
+    "name": "Kerinci",
+    "province": "Jambi",
+    "full_path": "Kabupaten Kerinci, Jambi"
+  },
+  {
+    "id": "15.02",
+    "type": "Kabupaten",
+    "name": " Merangin",
+    "province": "Jambi",
+    "full_path": "Kabupaten  Merangin, Jambi"
+  },
+  {
+    "id": "15.03",
+    "type": "Kabupaten",
+    "name": "Sarolangun",
+    "province": "Jambi",
+    "full_path": "Kabupaten Sarolangun, Jambi"
+  },
+  {
+    "id": "15.04",
+    "type": "Kabupaten",
+    "name": "Batanghari",
+    "province": "Jambi",
+    "full_path": "Kabupaten Batanghari, Jambi"
+  },
+  {
+    "id": "15.05",
+    "type": "Kabupaten",
+    "name": " Muaro Jambi",
+    "province": "Jambi",
+    "full_path": "Kabupaten  Muaro Jambi, Jambi"
+  },
+  {
+    "id": "15.06",
+    "type": "Kabupaten",
+    "name": "Tanjung Jabung Barat",
+    "province": "Jambi",
+    "full_path": "Kabupaten Tanjung Jabung Barat, Jambi"
+  },
+  {
+    "id": "15.07",
+    "type": "Kabupaten",
+    "name": "Tanjung Jabung Timur",
+    "province": "Jambi",
+    "full_path": "Kabupaten Tanjung Jabung Timur, Jambi"
+  },
+  {
+    "id": "15.08",
+    "type": "Kabupaten",
+    "name": "Bungo",
+    "province": "Jambi",
+    "full_path": "Kabupaten Bungo, Jambi"
+  },
+  {
+    "id": "15.09",
+    "type": "Kabupaten",
+    "name": "Tebo",
+    "province": "Jambi",
+    "full_path": "Kabupaten Tebo, Jambi"
+  },
+  {
+    "id": "15.71",
+    "type": "Kota",
+    "name": "Jambi",
+    "province": "Jambi",
+    "full_path": "Kota Jambi, Jambi"
+  },
+  {
+    "id": "15.72",
+    "type": "Kota",
+    "name": "Sungai Penuh",
+    "province": "Jambi",
+    "full_path": "Kota Sungai Penuh, Jambi"
+  },
+  {
+    "id": "16.01",
+    "type": "Kabupaten",
+    "name": "Ogan Komering Ulu",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Ogan Komering Ulu, Sumatera Selatan"
+  },
+  {
+    "id": "16.02",
+    "type": "Kabupaten",
+    "name": "Ogan Komering",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Ogan Komering, Sumatera Selatan"
+  },
+  {
+    "id": "16.03",
+    "type": "Kabupaten",
+    "name": "Muara Enim",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Muara Enim, Sumatera Selatan"
+  },
+  {
+    "id": "16.04",
+    "type": "Kabupaten",
+    "name": "Lahat",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Lahat, Sumatera Selatan"
+  },
+  {
+    "id": "16.05",
+    "type": "Kabupaten",
+    "name": "Musi Rawas",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Musi Rawas, Sumatera Selatan"
+  },
+  {
+    "id": "16.06",
+    "type": "Kabupaten",
+    "name": "Musi Banyuasin",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Musi Banyuasin, Sumatera Selatan"
+  },
+  {
+    "id": "16.07",
+    "type": "Kabupaten",
+    "name": "Banyuasin",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Banyuasin, Sumatera Selatan"
+  },
+  {
+    "id": "16.08",
+    "type": "Kabupaten",
+    "name": "Ogan Komering Ulu Timur",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Ogan Komering Ulu Timur, Sumatera Selatan"
+  },
+  {
+    "id": "16.09",
+    "type": "Kabupaten",
+    "name": "Ogan Komering Ulu Selatan",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Ogan Komering Ulu Selatan, Sumatera Selatan"
+  },
+  {
+    "id": "16.10",
+    "type": "Kabupaten",
+    "name": "Ogan Ilir",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Ogan Ilir, Sumatera Selatan"
+  },
+  {
+    "id": "16.11",
+    "type": "Kabupaten",
+    "name": "Empat Lawang",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Empat Lawang, Sumatera Selatan"
+  },
+  {
+    "id": "16.12",
+    "type": "Kabupaten",
+    "name": "Penukal Abab Lematang Ilir",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Penukal Abab Lematang Ilir, Sumatera Selatan"
+  },
+  {
+    "id": "16.13",
+    "type": "Kabupaten",
+    "name": "Musi Rawas Utara",
+    "province": "Sumatera Selatan",
+    "full_path": "Kabupaten Musi Rawas Utara, Sumatera Selatan"
+  },
+  {
+    "id": "16.71",
+    "type": "Kota",
+    "name": "Palembang",
+    "province": "Sumatera Selatan",
+    "full_path": "Kota Palembang, Sumatera Selatan"
+  },
+  {
+    "id": "16.72",
+    "type": "Kota",
+    "name": "Pagar Alam",
+    "province": "Sumatera Selatan",
+    "full_path": "Kota Pagar Alam, Sumatera Selatan"
+  },
+  {
+    "id": "16.73",
+    "type": "Kota",
+    "name": "Lubuk Linggau",
+    "province": "Sumatera Selatan",
+    "full_path": "Kota Lubuk Linggau, Sumatera Selatan"
+  },
+  {
+    "id": "16.74",
+    "type": "Kota",
+    "name": "Prabumulih",
+    "province": "Sumatera Selatan",
+    "full_path": "Kota Prabumulih, Sumatera Selatan"
+  },
+  {
+    "id": "17.01",
+    "type": "Kabupaten",
+    "name": "Bengkulu Selatan",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Bengkulu Selatan, Bengkulu"
+  },
+  {
+    "id": "17.02",
+    "type": "Kabupaten",
+    "name": "Rejang Lebong",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Rejang Lebong, Bengkulu"
+  },
+  {
+    "id": "17.03",
+    "type": "Kabupaten",
+    "name": "Bengkulu Utara",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Bengkulu Utara, Bengkulu"
+  },
+  {
+    "id": "17.04",
+    "type": "Kabupaten",
+    "name": "Kaur",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Kaur, Bengkulu"
+  },
+  {
+    "id": "17.05",
+    "type": "Kabupaten",
+    "name": "Seluma",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Seluma, Bengkulu"
+  },
+  {
+    "id": "17.06",
+    "type": "Kabupaten",
+    "name": "Mukomuko",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Mukomuko, Bengkulu"
+  },
+  {
+    "id": "17.07",
+    "type": "Kabupaten",
+    "name": "Lebong",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Lebong, Bengkulu"
+  },
+  {
+    "id": "17.08",
+    "type": "Kabupaten",
+    "name": "Kepahiang",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Kepahiang, Bengkulu"
+  },
+  {
+    "id": "17.09",
+    "type": "Kabupaten",
+    "name": "Bengkulu Tengah",
+    "province": "Bengkulu",
+    "full_path": "Kabupaten Bengkulu Tengah, Bengkulu"
+  },
+  {
+    "id": "17.71",
+    "type": "Kota",
+    "name": "Bengkulu",
+    "province": "Bengkulu",
+    "full_path": "Kota Bengkulu, Bengkulu"
+  },
+  {
+    "id": "18.01",
+    "type": "Kabupaten",
+    "name": "Lampung Selatan",
+    "province": "Lampung",
+    "full_path": "Kabupaten Lampung Selatan, Lampung"
+  },
+  {
+    "id": "18.02",
+    "type": "Kabupaten",
+    "name": "Lampung Tengah",
+    "province": "Lampung",
+    "full_path": "Kabupaten Lampung Tengah, Lampung"
+  },
+  {
+    "id": "18.03",
+    "type": "Kabupaten",
+    "name": "Lampung Utara",
+    "province": "Lampung",
+    "full_path": "Kabupaten Lampung Utara, Lampung"
+  },
+  {
+    "id": "18.04",
+    "type": "Kabupaten",
+    "name": "Lampung Barat",
+    "province": "Lampung",
+    "full_path": "Kabupaten Lampung Barat, Lampung"
+  },
+  {
+    "id": "18.05",
+    "type": "Kabupaten",
+    "name": "Tulang Bawang",
+    "province": "Lampung",
+    "full_path": "Kabupaten Tulang Bawang, Lampung"
+  },
+  {
+    "id": "18.06",
+    "type": "Kabupaten",
+    "name": "Tanggamus",
+    "province": "Lampung",
+    "full_path": "Kabupaten Tanggamus, Lampung"
+  },
+  {
+    "id": "18.07",
+    "type": "Kabupaten",
+    "name": "Lampung Timur",
+    "province": "Lampung",
+    "full_path": "Kabupaten Lampung Timur, Lampung"
+  },
+  {
+    "id": "18.08",
+    "type": "Kabupaten",
+    "name": "Way Kanan",
+    "province": "Lampung",
+    "full_path": "Kabupaten Way Kanan, Lampung"
+  },
+  {
+    "id": "18.09",
+    "type": "Kabupaten",
+    "name": "Pesawaran",
+    "province": "Lampung",
+    "full_path": "Kabupaten Pesawaran, Lampung"
+  },
+  {
+    "id": "18.10",
+    "type": "Kabupaten",
+    "name": "Pringsewu",
+    "province": "Lampung",
+    "full_path": "Kabupaten Pringsewu, Lampung"
+  },
+  {
+    "id": "18.11",
+    "type": "Kabupaten",
+    "name": "Mesuji",
+    "province": "Lampung",
+    "full_path": "Kabupaten Mesuji, Lampung"
+  },
+  {
+    "id": "18.12",
+    "type": "Kabupaten",
+    "name": "Tulang Bawang Barat",
+    "province": "Lampung",
+    "full_path": "Kabupaten Tulang Bawang Barat, Lampung"
+  },
+  {
+    "id": "18.13",
+    "type": "Kabupaten",
+    "name": "Pesisir Barat",
+    "province": "Lampung",
+    "full_path": "Kabupaten Pesisir Barat, Lampung"
+  },
+  {
+    "id": "18.71",
+    "type": "Kota",
+    "name": "Bandar Lampung",
+    "province": "Lampung",
+    "full_path": "Kota Bandar Lampung, Lampung"
+  },
+  {
+    "id": "18.72",
+    "type": "Kota",
+    "name": "Metro",
+    "province": "Lampung",
+    "full_path": "Kota Metro, Lampung"
+  },
+  {
+    "id": "19.01",
+    "type": "Kabupaten",
+    "name": "Bangka",
+    "province": "Kepulauan Bangka Belitung",
+    "full_path": "Kabupaten Bangka, Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "19.02",
+    "type": "Kabupaten",
+    "name": "Belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "full_path": "Kabupaten Belitung, Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "19.03",
+    "type": "Kabupaten",
+    "name": "Bangka Selatan",
+    "province": "Kepulauan Bangka Belitung",
+    "full_path": "Kabupaten Bangka Selatan, Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "19.04",
+    "type": "Kabupaten",
+    "name": "Bangka Tengah",
+    "province": "Kepulauan Bangka Belitung",
+    "full_path": "Kabupaten Bangka Tengah, Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "19.05",
+    "type": "Kabupaten",
+    "name": "Bangka Barat",
+    "province": "Kepulauan Bangka Belitung",
+    "full_path": "Kabupaten Bangka Barat, Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "19.06",
+    "type": "Kabupaten",
+    "name": "Belitung Timur",
+    "province": "Kepulauan Bangka Belitung",
+    "full_path": "Kabupaten Belitung Timur, Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "19.71",
+    "type": "Kota",
+    "name": "Pangkal Pinang",
+    "province": "Kepulauan Bangka Belitung",
+    "full_path": "Kota Pangkal Pinang, Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "21.01",
+    "type": "Kabupaten",
+    "name": "Bintan",
+    "province": "Kepulauan Riau",
+    "full_path": "Kabupaten Bintan, Kepulauan Riau"
+  },
+  {
+    "id": "21.02",
+    "type": "Kabupaten",
+    "name": "Karimun",
+    "province": "Kepulauan Riau",
+    "full_path": "Kabupaten Karimun, Kepulauan Riau"
+  },
+  {
+    "id": "21.03",
+    "type": "Kabupaten",
+    "name": "Natuna",
+    "province": "Kepulauan Riau",
+    "full_path": "Kabupaten Natuna, Kepulauan Riau"
+  },
+  {
+    "id": "21.04",
+    "type": "Kabupaten",
+    "name": "Lingga",
+    "province": "Kepulauan Riau",
+    "full_path": "Kabupaten Lingga, Kepulauan Riau"
+  },
+  {
+    "id": "21.05",
+    "type": "Kabupaten",
+    "name": "Kepulauan Anambas",
+    "province": "Kepulauan Riau",
+    "full_path": "Kabupaten Kepulauan Anambas, Kepulauan Riau"
+  },
+  {
+    "id": "21.71",
+    "type": "Kota",
+    "name": "Batam",
+    "province": "Kepulauan Riau",
+    "full_path": "Kota Batam, Kepulauan Riau"
+  },
+  {
+    "id": "21.72",
+    "type": "Kota",
+    "name": "Tanjung Pinang",
+    "province": "Kepulauan Riau",
+    "full_path": "Kota Tanjung Pinang, Kepulauan Riau"
+  },
+  {
+    "id": "31.01",
+    "type": "Kabupaten",
+    "name": "Administrasi Kepulauan Seribu",
+    "province": "DKI Jakarta",
+    "full_path": "Kabupaten Administrasi Kepulauan Seribu, DKI Jakarta"
+  },
+  {
+    "id": "31.71",
+    "type": "Kota",
+    "name": "Administrasi Jakarta Pusat",
+    "province": "DKI Jakarta",
+    "full_path": "Kota Administrasi Jakarta Pusat, DKI Jakarta"
+  },
+  {
+    "id": "31.72",
+    "type": "Kota",
+    "name": "Administrasi Jakarta Utara ",
+    "province": "DKI Jakarta",
+    "full_path": "Kota Administrasi Jakarta Utara , DKI Jakarta"
+  },
+  {
+    "id": "31.73",
+    "type": "Kota",
+    "name": "Administrasi Jakarta Barat",
+    "province": "DKI Jakarta",
+    "full_path": "Kota Administrasi Jakarta Barat, DKI Jakarta"
+  },
+  {
+    "id": "31.74",
+    "type": "Kota",
+    "name": "Administrasi Jakarta Selatan",
+    "province": "DKI Jakarta",
+    "full_path": "Kota Administrasi Jakarta Selatan, DKI Jakarta"
+  },
+  {
+    "id": "31.75",
+    "type": "Kota",
+    "name": "Administrasi Jakarta Timur",
+    "province": "DKI Jakarta",
+    "full_path": "Kota Administrasi Jakarta Timur, DKI Jakarta"
+  },
+  {
+    "id": "32.01",
+    "type": "Kabupaten",
+    "name": "Bogor",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Bogor, Jawa Barat"
+  },
+  {
+    "id": "32.02",
+    "type": "Kabupaten",
+    "name": "Sukabumi",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Sukabumi, Jawa Barat"
+  },
+  {
+    "id": "32.03",
+    "type": "Kabupaten",
+    "name": "Cianjur",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Cianjur, Jawa Barat"
+  },
+  {
+    "id": "32.04",
+    "type": "Kabupaten",
+    "name": "Bandung",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Bandung, Jawa Barat"
+  },
+  {
+    "id": "32.05",
+    "type": "Kabupaten",
+    "name": "Garut",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Garut, Jawa Barat"
+  },
+  {
+    "id": "32.06",
+    "type": "Kabupaten",
+    "name": "Tasikmalaya",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Tasikmalaya, Jawa Barat"
+  },
+  {
+    "id": "32.07",
+    "type": "Kabupaten",
+    "name": "Ciamis",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Ciamis, Jawa Barat"
+  },
+  {
+    "id": "32.08",
+    "type": "Kabupaten",
+    "name": "Kuningan",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Kuningan, Jawa Barat"
+  },
+  {
+    "id": "32.09",
+    "type": "Kabupaten",
+    "name": "Cirebon",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Cirebon, Jawa Barat"
+  },
+  {
+    "id": "32.10",
+    "type": "Kabupaten",
+    "name": "Majalengka",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Majalengka, Jawa Barat"
+  },
+  {
+    "id": "32.11",
+    "type": "Kabupaten",
+    "name": "Sumedang",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Sumedang, Jawa Barat"
+  },
+  {
+    "id": "32.12",
+    "type": "Kabupaten",
+    "name": "Indramayu",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Indramayu, Jawa Barat"
+  },
+  {
+    "id": "32.13",
+    "type": "Kabupaten",
+    "name": "Subang",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Subang, Jawa Barat"
+  },
+  {
+    "id": "32.14",
+    "type": "Kabupaten",
+    "name": "Purwakarta",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Purwakarta, Jawa Barat"
+  },
+  {
+    "id": "32.15",
+    "type": "Kabupaten",
+    "name": "Karawang",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Karawang, Jawa Barat"
+  },
+  {
+    "id": "32.16",
+    "type": "Kabupaten",
+    "name": "Bekasi",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Bekasi, Jawa Barat"
+  },
+  {
+    "id": "32.17",
+    "type": "Kabupaten",
+    "name": "Bandung Barat",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Bandung Barat, Jawa Barat"
+  },
+  {
+    "id": "32.18",
+    "type": "Kabupaten",
+    "name": "Pangandaran",
+    "province": "Jawa Barat",
+    "full_path": "Kabupaten Pangandaran, Jawa Barat"
+  },
+  {
+    "id": "32.71",
+    "type": "Kota",
+    "name": "Bogor",
+    "province": "Jawa Barat",
+    "full_path": "Kota Bogor, Jawa Barat"
+  },
+  {
+    "id": "32.72",
+    "type": "Kota",
+    "name": "Sukabumi",
+    "province": "Jawa Barat",
+    "full_path": "Kota Sukabumi, Jawa Barat"
+  },
+  {
+    "id": "32.73",
+    "type": "Kota",
+    "name": "Bandung",
+    "province": "Jawa Barat",
+    "full_path": "Kota Bandung, Jawa Barat"
+  },
+  {
+    "id": "32.74",
+    "type": "Kota",
+    "name": "Cirebon",
+    "province": "Jawa Barat",
+    "full_path": "Kota Cirebon, Jawa Barat"
+  },
+  {
+    "id": "32.75",
+    "type": "Kota",
+    "name": "Bekasi",
+    "province": "Jawa Barat",
+    "full_path": "Kota Bekasi, Jawa Barat"
+  },
+  {
+    "id": "32.76",
+    "type": "Kota",
+    "name": "Depok",
+    "province": "Jawa Barat",
+    "full_path": "Kota Depok, Jawa Barat"
+  },
+  {
+    "id": "32.77",
+    "type": "Kota",
+    "name": "Cimahi",
+    "province": "Jawa Barat",
+    "full_path": "Kota Cimahi, Jawa Barat"
+  },
+  {
+    "id": "32.78",
+    "type": "Kota",
+    "name": "Tasikmalaya",
+    "province": "Jawa Barat",
+    "full_path": "Kota Tasikmalaya, Jawa Barat"
+  },
+  {
+    "id": "32.79",
+    "type": "Kota",
+    "name": "Banjar",
+    "province": "Jawa Barat",
+    "full_path": "Kota Banjar, Jawa Barat"
+  },
+  {
+    "id": "33.01",
+    "type": "Kabupaten",
+    "name": "Cilacap",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Cilacap, Jawa Tengah"
+  },
+  {
+    "id": "33.02",
+    "type": "Kabupaten",
+    "name": "Banyumas",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Banyumas, Jawa Tengah"
+  },
+  {
+    "id": "33.03",
+    "type": "Kabupaten",
+    "name": "Purbalingga",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Purbalingga, Jawa Tengah"
+  },
+  {
+    "id": "33.04",
+    "type": "Kabupaten",
+    "name": "Banjarnegara",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Banjarnegara, Jawa Tengah"
+  },
+  {
+    "id": "33.05",
+    "type": "Kabupaten",
+    "name": "Kebumen",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Kebumen, Jawa Tengah"
+  },
+  {
+    "id": "33.06",
+    "type": "Kabupaten",
+    "name": "Purworejo",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Purworejo, Jawa Tengah"
+  },
+  {
+    "id": "33.07",
+    "type": "Kabupaten",
+    "name": "Wonosobo",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Wonosobo, Jawa Tengah"
+  },
+  {
+    "id": "33.08",
+    "type": "Kabupaten",
+    "name": "Magelang",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Magelang, Jawa Tengah"
+  },
+  {
+    "id": "33.09",
+    "type": "Kabupaten",
+    "name": "Boyolali",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Boyolali, Jawa Tengah"
+  },
+  {
+    "id": "33.10",
+    "type": "Kabupaten",
+    "name": "Klaten",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Klaten, Jawa Tengah"
+  },
+  {
+    "id": "33.11",
+    "type": "Kabupaten",
+    "name": "Sukoharjo",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Sukoharjo, Jawa Tengah"
+  },
+  {
+    "id": "33.12",
+    "type": "Kabupaten",
+    "name": "Wonogiri",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Wonogiri, Jawa Tengah"
+  },
+  {
+    "id": "33.13",
+    "type": "Kabupaten",
+    "name": "Karanganyar",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Karanganyar, Jawa Tengah"
+  },
+  {
+    "id": "33.14",
+    "type": "Kabupaten",
+    "name": "Sragen",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Sragen, Jawa Tengah"
+  },
+  {
+    "id": "33.15",
+    "type": "Kabupaten",
+    "name": "Grobogan",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Grobogan, Jawa Tengah"
+  },
+  {
+    "id": "33.16",
+    "type": "Kabupaten",
+    "name": "Blora",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Blora, Jawa Tengah"
+  },
+  {
+    "id": "33.17",
+    "type": "Kabupaten",
+    "name": "Rembang",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Rembang, Jawa Tengah"
+  },
+  {
+    "id": "33.18",
+    "type": "Kabupaten",
+    "name": "Pati",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Pati, Jawa Tengah"
+  },
+  {
+    "id": "33.19",
+    "type": "Kabupaten",
+    "name": "Kudus",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Kudus, Jawa Tengah"
+  },
+  {
+    "id": "33.20",
+    "type": "Kabupaten",
+    "name": "Jepara",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Jepara, Jawa Tengah"
+  },
+  {
+    "id": "33.21",
+    "type": "Kabupaten",
+    "name": "Demak",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Demak, Jawa Tengah"
+  },
+  {
+    "id": "33.22",
+    "type": "Kabupaten",
+    "name": "Semarang",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Semarang, Jawa Tengah"
+  },
+  {
+    "id": "33.23",
+    "type": "Kabupaten",
+    "name": "Temanggung",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Temanggung, Jawa Tengah"
+  },
+  {
+    "id": "33.24",
+    "type": "Kabupaten",
+    "name": "Kendal",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Kendal, Jawa Tengah"
+  },
+  {
+    "id": "33.25",
+    "type": "Kabupaten",
+    "name": "Batang",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Batang, Jawa Tengah"
+  },
+  {
+    "id": "33.26",
+    "type": "Kabupaten",
+    "name": "Pekalongan",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Pekalongan, Jawa Tengah"
+  },
+  {
+    "id": "33.27",
+    "type": "Kabupaten",
+    "name": "Pemalang",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Pemalang, Jawa Tengah"
+  },
+  {
+    "id": "33.28",
+    "type": "Kabupaten",
+    "name": "Tegal",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Tegal, Jawa Tengah"
+  },
+  {
+    "id": "33.29",
+    "type": "Kabupaten",
+    "name": "Brebes",
+    "province": "Jawa Tengah",
+    "full_path": "Kabupaten Brebes, Jawa Tengah"
+  },
+  {
+    "id": "33.71",
+    "type": "Kota",
+    "name": "Magelang",
+    "province": "Jawa Tengah",
+    "full_path": "Kota Magelang, Jawa Tengah"
+  },
+  {
+    "id": "33.72",
+    "type": "Kota",
+    "name": "Surakarta",
+    "province": "Jawa Tengah",
+    "full_path": "Kota Surakarta, Jawa Tengah"
+  },
+  {
+    "id": "33.73",
+    "type": "Kota",
+    "name": "Salatiga",
+    "province": "Jawa Tengah",
+    "full_path": "Kota Salatiga, Jawa Tengah"
+  },
+  {
+    "id": "33.74",
+    "type": "Kota",
+    "name": "Semarang",
+    "province": "Jawa Tengah",
+    "full_path": "Kota Semarang, Jawa Tengah"
+  },
+  {
+    "id": "33.75",
+    "type": "Kota",
+    "name": "Pekalongan",
+    "province": "Jawa Tengah",
+    "full_path": "Kota Pekalongan, Jawa Tengah"
+  },
+  {
+    "id": "33.76",
+    "type": "Kota",
+    "name": "Tegal",
+    "province": "Jawa Tengah",
+    "full_path": "Kota Tegal, Jawa Tengah"
+  },
+  {
+    "id": "34.01",
+    "type": "Kabupaten",
+    "name": "Kulon Progo",
+    "province": "Daerah Istimewa Yogyakarta",
+    "full_path": "Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta"
+  },
+  {
+    "id": "34.02",
+    "type": "Kabupaten",
+    "name": "Bantul",
+    "province": "Daerah Istimewa Yogyakarta",
+    "full_path": "Kabupaten Bantul, Daerah Istimewa Yogyakarta"
+  },
+  {
+    "id": "34.03",
+    "type": "Kabupaten",
+    "name": "Gunungkidul",
+    "province": "Daerah Istimewa Yogyakarta",
+    "full_path": "Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta"
+  },
+  {
+    "id": "34.04",
+    "type": "Kabupaten",
+    "name": "Sleman",
+    "province": "Daerah Istimewa Yogyakarta",
+    "full_path": "Kabupaten Sleman, Daerah Istimewa Yogyakarta"
+  },
+  {
+    "id": "34.71",
+    "type": "Kota",
+    "name": "Yogyakarta",
+    "province": "Daerah Istimewa Yogyakarta",
+    "full_path": "Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+  },
+  {
+    "id": "35.01",
+    "type": "Kabupaten",
+    "name": "Pacitan",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Pacitan, Jawa Timur"
+  },
+  {
+    "id": "35.02",
+    "type": "Kabupaten",
+    "name": "Ponorogo",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Ponorogo, Jawa Timur"
+  },
+  {
+    "id": "35.03",
+    "type": "Kabupaten",
+    "name": "Trenggalek",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Trenggalek, Jawa Timur"
+  },
+  {
+    "id": "35.04",
+    "type": "Kabupaten",
+    "name": "Tulungagung",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Tulungagung, Jawa Timur"
+  },
+  {
+    "id": "35.05",
+    "type": "Kabupaten",
+    "name": "Blitar",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Blitar, Jawa Timur"
+  },
+  {
+    "id": "35.06",
+    "type": "Kabupaten",
+    "name": "Kediri",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Kediri, Jawa Timur"
+  },
+  {
+    "id": "35.07",
+    "type": "Kabupaten",
+    "name": "Malang",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Malang, Jawa Timur"
+  },
+  {
+    "id": "35.08",
+    "type": "Kabupaten",
+    "name": "Lumajang",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Lumajang, Jawa Timur"
+  },
+  {
+    "id": "35.09",
+    "type": "Kabupaten",
+    "name": "Jember",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Jember, Jawa Timur"
+  },
+  {
+    "id": "35.10",
+    "type": "Kabupaten",
+    "name": "Banyuwangi",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Banyuwangi, Jawa Timur"
+  },
+  {
+    "id": "35.11",
+    "type": "Kabupaten",
+    "name": "Bondowoso",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Bondowoso, Jawa Timur"
+  },
+  {
+    "id": "35.12",
+    "type": "Kabupaten",
+    "name": "Situbondo",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Situbondo, Jawa Timur"
+  },
+  {
+    "id": "35.13",
+    "type": "Kabupaten",
+    "name": "Probolinggo",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Probolinggo, Jawa Timur"
+  },
+  {
+    "id": "35.14",
+    "type": "Kabupaten",
+    "name": "Pasuruan",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Pasuruan, Jawa Timur"
+  },
+  {
+    "id": "35.15",
+    "type": "Kabupaten",
+    "name": "Sidoarjo",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Sidoarjo, Jawa Timur"
+  },
+  {
+    "id": "35.16",
+    "type": "Kabupaten",
+    "name": "Mojokerto",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Mojokerto, Jawa Timur"
+  },
+  {
+    "id": "35.17",
+    "type": "Kabupaten",
+    "name": "Jombang",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Jombang, Jawa Timur"
+  },
+  {
+    "id": "35.18",
+    "type": "Kabupaten",
+    "name": "Nganjuk",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Nganjuk, Jawa Timur"
+  },
+  {
+    "id": "35.19",
+    "type": "Kabupaten",
+    "name": "Madiun",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Madiun, Jawa Timur"
+  },
+  {
+    "id": "35.20",
+    "type": "Kabupaten",
+    "name": "Magetan",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Magetan, Jawa Timur"
+  },
+  {
+    "id": "35.21",
+    "type": "Kabupaten",
+    "name": "Ngawi",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Ngawi, Jawa Timur"
+  },
+  {
+    "id": "35.22",
+    "type": "Kabupaten",
+    "name": "Bojonegoro",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Bojonegoro, Jawa Timur"
+  },
+  {
+    "id": "35.23",
+    "type": "Kabupaten",
+    "name": "Tuban",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Tuban, Jawa Timur"
+  },
+  {
+    "id": "35.24",
+    "type": "Kabupaten",
+    "name": "Lamongan",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Lamongan, Jawa Timur"
+  },
+  {
+    "id": "35.25",
+    "type": "Kabupaten",
+    "name": "Gresik",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Gresik, Jawa Timur"
+  },
+  {
+    "id": "35.26",
+    "type": "Kabupaten",
+    "name": "Bangkalan",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Bangkalan, Jawa Timur"
+  },
+  {
+    "id": "35.27",
+    "type": "Kabupaten",
+    "name": "Sampang",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Sampang, Jawa Timur"
+  },
+  {
+    "id": "35.28",
+    "type": "Kabupaten",
+    "name": "Pamekasan",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Pamekasan, Jawa Timur"
+  },
+  {
+    "id": "35.29",
+    "type": "Kabupaten",
+    "name": "Sumenep",
+    "province": "Jawa Timur",
+    "full_path": "Kabupaten Sumenep, Jawa Timur"
+  },
+  {
+    "id": "35.71",
+    "type": "Kota",
+    "name": "Kediri",
+    "province": "Jawa Timur",
+    "full_path": "Kota Kediri, Jawa Timur"
+  },
+  {
+    "id": "35.72",
+    "type": "Kota",
+    "name": "Blitar",
+    "province": "Jawa Timur",
+    "full_path": "Kota Blitar, Jawa Timur"
+  },
+  {
+    "id": "35.73",
+    "type": "Kota",
+    "name": "Malang",
+    "province": "Jawa Timur",
+    "full_path": "Kota Malang, Jawa Timur"
+  },
+  {
+    "id": "35.74",
+    "type": "Kota",
+    "name": "Probolinggo",
+    "province": "Jawa Timur",
+    "full_path": "Kota Probolinggo, Jawa Timur"
+  },
+  {
+    "id": "35.75",
+    "type": "Kota",
+    "name": "Pasuruan",
+    "province": "Jawa Timur",
+    "full_path": "Kota Pasuruan, Jawa Timur"
+  },
+  {
+    "id": "35.76",
+    "type": "Kota",
+    "name": "Mojokerto",
+    "province": "Jawa Timur",
+    "full_path": "Kota Mojokerto, Jawa Timur"
+  },
+  {
+    "id": "35.77",
+    "type": "Kota",
+    "name": "Madiun",
+    "province": "Jawa Timur",
+    "full_path": "Kota Madiun, Jawa Timur"
+  },
+  {
+    "id": "35.78",
+    "type": "Kota",
+    "name": "Surabaya",
+    "province": "Jawa Timur",
+    "full_path": "Kota Surabaya, Jawa Timur"
+  },
+  {
+    "id": "35.79",
+    "type": "Kota",
+    "name": "Batu",
+    "province": "Jawa Timur",
+    "full_path": "Kota Batu, Jawa Timur"
+  },
+  {
+    "id": "36.01",
+    "type": "Kabupaten",
+    "name": "Pandeglang",
+    "province": "Banten",
+    "full_path": "Kabupaten Pandeglang, Banten"
+  },
+  {
+    "id": "36.02",
+    "type": "Kabupaten",
+    "name": "Lebak",
+    "province": "Banten",
+    "full_path": "Kabupaten Lebak, Banten"
+  },
+  {
+    "id": "36.03",
+    "type": "Kabupaten",
+    "name": "Tangerang",
+    "province": "Banten",
+    "full_path": "Kabupaten Tangerang, Banten"
+  },
+  {
+    "id": "36.04",
+    "type": "Kabupaten",
+    "name": "Serang",
+    "province": "Banten",
+    "full_path": "Kabupaten Serang, Banten"
+  },
+  {
+    "id": "36.71",
+    "type": "Kota",
+    "name": "Tangerang",
+    "province": "Banten",
+    "full_path": "Kota Tangerang, Banten"
+  },
+  {
+    "id": "36.72",
+    "type": "Kota",
+    "name": "Cilegon",
+    "province": "Banten",
+    "full_path": "Kota Cilegon, Banten"
+  },
+  {
+    "id": "36.73",
+    "type": "Kota",
+    "name": "Serang",
+    "province": "Banten",
+    "full_path": "Kota Serang, Banten"
+  },
+  {
+    "id": "36.74",
+    "type": "Kota",
+    "name": "Tangerang Selatan",
+    "province": "Banten",
+    "full_path": "Kota Tangerang Selatan, Banten"
+  },
+  {
+    "id": "51.01",
+    "type": "Kabupaten",
+    "name": "Jembrana",
+    "province": "Bali",
+    "full_path": "Kabupaten Jembrana, Bali"
+  },
+  {
+    "id": "51.02",
+    "type": "Kabupaten",
+    "name": "Tabanan",
+    "province": "Bali",
+    "full_path": "Kabupaten Tabanan, Bali"
+  },
+  {
+    "id": "51.03",
+    "type": "Kabupaten",
+    "name": "Badung",
+    "province": "Bali",
+    "full_path": "Kabupaten Badung, Bali"
+  },
+  {
+    "id": "51.04",
+    "type": "Kabupaten",
+    "name": "Gianyar",
+    "province": "Bali",
+    "full_path": "Kabupaten Gianyar, Bali"
+  },
+  {
+    "id": "51.05",
+    "type": "Kabupaten",
+    "name": "Klungkung",
+    "province": "Bali",
+    "full_path": "Kabupaten Klungkung, Bali"
+  },
+  {
+    "id": "51.06",
+    "type": "Kabupaten",
+    "name": "Bangli",
+    "province": "Bali",
+    "full_path": "Kabupaten Bangli, Bali"
+  },
+  {
+    "id": "51.07",
+    "type": "Kabupaten",
+    "name": "Karangasem",
+    "province": "Bali",
+    "full_path": "Kabupaten Karangasem, Bali"
+  },
+  {
+    "id": "51.08",
+    "type": "Kabupaten",
+    "name": "Buleleng",
+    "province": "Bali",
+    "full_path": "Kabupaten Buleleng, Bali"
+  },
+  {
+    "id": "51.71",
+    "type": "Kota",
+    "name": "Denpasar",
+    "province": "Bali",
+    "full_path": "Kota Denpasar, Bali"
+  },
+  {
+    "id": "52.01",
+    "type": "Kabupaten",
+    "name": "Lombok Barat",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Lombok Barat, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.02",
+    "type": "Kabupaten",
+    "name": "Lombok Tengah",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Lombok Tengah, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.03",
+    "type": "Kabupaten",
+    "name": "Lombok Timur",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Lombok Timur, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.04",
+    "type": "Kabupaten",
+    "name": "Sumbawa",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Sumbawa, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.05",
+    "type": "Kabupaten",
+    "name": "Dompu",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Dompu, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.06",
+    "type": "Kabupaten",
+    "name": "Bima",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Bima, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.07",
+    "type": "Kabupaten",
+    "name": "Sumbawa Barat",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Sumbawa Barat, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.08",
+    "type": "Kabupaten",
+    "name": "Lombok Utara",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kabupaten Lombok Utara, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.71",
+    "type": "Kota",
+    "name": "Mataram",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kota Mataram, Nusa Tenggara Barat"
+  },
+  {
+    "id": "52.72",
+    "type": "Kota",
+    "name": "Bima",
+    "province": "Nusa Tenggara Barat",
+    "full_path": "Kota Bima, Nusa Tenggara Barat"
+  },
+  {
+    "id": "53.01",
+    "type": "Kabupaten",
+    "name": "Kupang",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Kupang, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.02",
+    "type": "Kab",
+    "name": "Timor Tengah Selatan",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kab Timor Tengah Selatan, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.03",
+    "type": "Kabupaten",
+    "name": "Timor Tengah Utara",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Timor Tengah Utara, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.04",
+    "type": "Kabupaten",
+    "name": "Belu",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Belu, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.05",
+    "type": "Kabupaten",
+    "name": "Alor",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Alor, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.06",
+    "type": "Kabupaten",
+    "name": "Flores Timur",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Flores Timur, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.07",
+    "type": "Kabupaten",
+    "name": "Sikka",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Sikka, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.08",
+    "type": "Kabupaten",
+    "name": "Ende",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Ende, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.09",
+    "type": "Kabupaten",
+    "name": "Ngada",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Ngada, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.10",
+    "type": "Kabupaten",
+    "name": "Manggarai",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Manggarai, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.11",
+    "type": "Kabupaten",
+    "name": "Sumba Timur",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Sumba Timur, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.12",
+    "type": "Kabupaten",
+    "name": "Sumba Barat",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Sumba Barat, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.13",
+    "type": "Kabupaten",
+    "name": "Lembata",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Lembata, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.14",
+    "type": "Kabupaten",
+    "name": "Rote Ndao",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Rote Ndao, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.15",
+    "type": "Kabupaten",
+    "name": "Manggarai Barat",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Manggarai Barat, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.16",
+    "type": "Kabupaten",
+    "name": "Nagekeo",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Nagekeo, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.17",
+    "type": "Kabupaten",
+    "name": "Sumba Tengah",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Sumba Tengah, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.18",
+    "type": "Kabupaten",
+    "name": "Sumba Barat Daya",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Sumba Barat Daya, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.19",
+    "type": "Kabupaten",
+    "name": "Manggarai Timur",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Manggarai Timur, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.20",
+    "type": "Kabupaten",
+    "name": "Sabu Raijua",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Sabu Raijua, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.21",
+    "type": "Kabupaten",
+    "name": "Malaka",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kabupaten Malaka, Nusa Tenggara Timur"
+  },
+  {
+    "id": "53.71",
+    "type": "Kota",
+    "name": "Kupang",
+    "province": "Nusa Tenggara Timur",
+    "full_path": "Kota Kupang, Nusa Tenggara Timur"
+  },
+  {
+    "id": "61.01",
+    "type": "Kabupaten",
+    "name": "Sambas",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Sambas, Kalimantan Barat"
+  },
+  {
+    "id": "61.02",
+    "type": "Kabupaten",
+    "name": "Mempawah",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Mempawah, Kalimantan Barat"
+  },
+  {
+    "id": "61.03",
+    "type": "Kabupaten",
+    "name": "Sanggau",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Sanggau, Kalimantan Barat"
+  },
+  {
+    "id": "61.04",
+    "type": "Kabupaten",
+    "name": "Ketapang",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Ketapang, Kalimantan Barat"
+  },
+  {
+    "id": "61.05",
+    "type": "Kabupaten",
+    "name": "Sintang",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Sintang, Kalimantan Barat"
+  },
+  {
+    "id": "61.06",
+    "type": "Kabupaten",
+    "name": "Kapuas Hulu",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Kapuas Hulu, Kalimantan Barat"
+  },
+  {
+    "id": "61.07",
+    "type": "Kabupaten",
+    "name": "Bengkayang",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Bengkayang, Kalimantan Barat"
+  },
+  {
+    "id": "61.08",
+    "type": "Kabupaten",
+    "name": "Landak",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Landak, Kalimantan Barat"
+  },
+  {
+    "id": "61.09",
+    "type": "Kabupaten",
+    "name": "Sekadau",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Sekadau, Kalimantan Barat"
+  },
+  {
+    "id": "61.10",
+    "type": "Kabupaten",
+    "name": "Melawi",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Melawi, Kalimantan Barat"
+  },
+  {
+    "id": "61.11",
+    "type": "Kabupaten",
+    "name": "Kayong Utara",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Kayong Utara, Kalimantan Barat"
+  },
+  {
+    "id": "61.12",
+    "type": "Kabupaten",
+    "name": "Kubu Raya",
+    "province": "Kalimantan Barat",
+    "full_path": "Kabupaten Kubu Raya, Kalimantan Barat"
+  },
+  {
+    "id": "61.71",
+    "type": "Kota",
+    "name": "Pontianak",
+    "province": "Kalimantan Barat",
+    "full_path": "Kota Pontianak, Kalimantan Barat"
+  },
+  {
+    "id": "61.72",
+    "type": "Kota",
+    "name": "Singkawang",
+    "province": "Kalimantan Barat",
+    "full_path": "Kota Singkawang, Kalimantan Barat"
+  },
+  {
+    "id": "62.01",
+    "type": "Kabupaten",
+    "name": "Kotawaringin Barat",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Kotawaringin Barat, Kalimantan Tengah"
+  },
+  {
+    "id": "62.02",
+    "type": "Kabupaten",
+    "name": "Kotawaringin Timur",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Kotawaringin Timur, Kalimantan Tengah"
+  },
+  {
+    "id": "62.03",
+    "type": "Kabupaten",
+    "name": "Kapuas",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Kapuas, Kalimantan Tengah"
+  },
+  {
+    "id": "62.04",
+    "type": "Kabupaten",
+    "name": "Barito Selatan",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Barito Selatan, Kalimantan Tengah"
+  },
+  {
+    "id": "62.05",
+    "type": "Kabupaten",
+    "name": "Barito Utara",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Barito Utara, Kalimantan Tengah"
+  },
+  {
+    "id": "62.06",
+    "type": "Kabupaten",
+    "name": "Katingan",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Katingan, Kalimantan Tengah"
+  },
+  {
+    "id": "62.07",
+    "type": "Kabupaten",
+    "name": "Seruyan",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Seruyan, Kalimantan Tengah"
+  },
+  {
+    "id": "62.08",
+    "type": "Kabupaten",
+    "name": "Sukamara",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Sukamara, Kalimantan Tengah"
+  },
+  {
+    "id": "62.09",
+    "type": "Kabupaten",
+    "name": "Lamandau",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Lamandau, Kalimantan Tengah"
+  },
+  {
+    "id": "62.10",
+    "type": "Kabupaten",
+    "name": "Gunung Mas",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Gunung Mas, Kalimantan Tengah"
+  },
+  {
+    "id": "62.11",
+    "type": "Kabupaten",
+    "name": "Pulang Pisau",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Pulang Pisau, Kalimantan Tengah"
+  },
+  {
+    "id": "62.12",
+    "type": "Kabupaten",
+    "name": "Murung Raya",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Murung Raya, Kalimantan Tengah"
+  },
+  {
+    "id": "62.13",
+    "type": "Kabupaten",
+    "name": "Barito Timur",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kabupaten Barito Timur, Kalimantan Tengah"
+  },
+  {
+    "id": "62.71",
+    "type": "Kota",
+    "name": "Palangkaraya",
+    "province": "Kalimantan Tengah",
+    "full_path": "Kota Palangkaraya, Kalimantan Tengah"
+  },
+  {
+    "id": "63.01",
+    "type": "Kabupaten",
+    "name": "Tanah Laut",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Tanah Laut, Kalimantan Selatan"
+  },
+  {
+    "id": "63.02",
+    "type": "Kabupaten",
+    "name": "Kotabaru",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Kotabaru, Kalimantan Selatan"
+  },
+  {
+    "id": "63.03",
+    "type": "Kabupaten",
+    "name": "Banjar",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Banjar, Kalimantan Selatan"
+  },
+  {
+    "id": "63.04",
+    "type": "Kabupaten",
+    "name": "Barito Kuala",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Barito Kuala, Kalimantan Selatan"
+  },
+  {
+    "id": "63.05",
+    "type": "Kabupaten",
+    "name": "Tapin",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Tapin, Kalimantan Selatan"
+  },
+  {
+    "id": "63.06",
+    "type": "Kabupaten",
+    "name": "Hulu Sungai Selatan",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Hulu Sungai Selatan, Kalimantan Selatan"
+  },
+  {
+    "id": "63.07",
+    "type": "Kabupaten",
+    "name": "Hulu Sungai Tengah",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Hulu Sungai Tengah, Kalimantan Selatan"
+  },
+  {
+    "id": "63.08",
+    "type": "Kabupaten",
+    "name": "Hulu Sungai Utara",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Hulu Sungai Utara, Kalimantan Selatan"
+  },
+  {
+    "id": "63.09",
+    "type": "Kabupaten",
+    "name": "Tabalong",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Tabalong, Kalimantan Selatan"
+  },
+  {
+    "id": "63.10",
+    "type": "Kabupaten",
+    "name": "Tanah Bumbu",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Tanah Bumbu, Kalimantan Selatan"
+  },
+  {
+    "id": "63.11",
+    "type": "Kabupaten",
+    "name": "Balangan",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kabupaten Balangan, Kalimantan Selatan"
+  },
+  {
+    "id": "63.71",
+    "type": "Kota",
+    "name": "Banjarmasin",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kota Banjarmasin, Kalimantan Selatan"
+  },
+  {
+    "id": "63.72",
+    "type": "Kota",
+    "name": "Banjarbaru",
+    "province": "Kalimantan Selatan",
+    "full_path": "Kota Banjarbaru, Kalimantan Selatan"
+  },
+  {
+    "id": "64.01",
+    "type": "Kabupaten",
+    "name": "Paser",
+    "province": "Kalimantan Timur",
+    "full_path": "Kabupaten Paser, Kalimantan Timur"
+  },
+  {
+    "id": "64.02",
+    "type": "Kabupaten",
+    "name": "Kutai Kartanegara",
+    "province": "Kalimantan Timur",
+    "full_path": "Kabupaten Kutai Kartanegara, Kalimantan Timur"
+  },
+  {
+    "id": "64.03",
+    "type": "Kabupaten",
+    "name": "Berau",
+    "province": "Kalimantan Timur",
+    "full_path": "Kabupaten Berau, Kalimantan Timur"
+  },
+  {
+    "id": "64.07",
+    "type": "Kabupaten",
+    "name": "Kutai Barat",
+    "province": "Kalimantan Timur",
+    "full_path": "Kabupaten Kutai Barat, Kalimantan Timur"
+  },
+  {
+    "id": "64.08",
+    "type": "Kabupaten",
+    "name": "Kutai Timur",
+    "province": "Kalimantan Timur",
+    "full_path": "Kabupaten Kutai Timur, Kalimantan Timur"
+  },
+  {
+    "id": "64.09",
+    "type": "Kabupaten",
+    "name": "Penajam Paser Utara",
+    "province": "Kalimantan Timur",
+    "full_path": "Kabupaten Penajam Paser Utara, Kalimantan Timur"
+  },
+  {
+    "id": "64.11",
+    "type": "Kabupaten",
+    "name": "Mahakam Ulu",
+    "province": "Kalimantan Timur",
+    "full_path": "Kabupaten Mahakam Ulu, Kalimantan Timur"
+  },
+  {
+    "id": "64.71",
+    "type": "Kota",
+    "name": "Balikpapan",
+    "province": "Kalimantan Timur",
+    "full_path": "Kota Balikpapan, Kalimantan Timur"
+  },
+  {
+    "id": "64.72",
+    "type": "Kota",
+    "name": "Samarinda",
+    "province": "Kalimantan Timur",
+    "full_path": "Kota Samarinda, Kalimantan Timur"
+  },
+  {
+    "id": "64.74",
+    "type": "Kota",
+    "name": "Bontang",
+    "province": "Kalimantan Timur",
+    "full_path": "Kota Bontang, Kalimantan Timur"
+  },
+  {
+    "id": "65.01",
+    "type": "Kabupaten",
+    "name": "Bulungan",
+    "province": "Kalimantan Utara",
+    "full_path": "Kabupaten Bulungan, Kalimantan Utara"
+  },
+  {
+    "id": "65.02",
+    "type": "Kabupaten",
+    "name": "Malinau",
+    "province": "Kalimantan Utara",
+    "full_path": "Kabupaten Malinau, Kalimantan Utara"
+  },
+  {
+    "id": "65.03",
+    "type": "Kabupaten",
+    "name": "Nunukan",
+    "province": "Kalimantan Utara",
+    "full_path": "Kabupaten Nunukan, Kalimantan Utara"
+  },
+  {
+    "id": "65.04",
+    "type": "Kabupaten",
+    "name": "Tana Tidung",
+    "province": "Kalimantan Utara",
+    "full_path": "Kabupaten Tana Tidung, Kalimantan Utara"
+  },
+  {
+    "id": "65.71",
+    "type": "Kota",
+    "name": "Tarakan",
+    "province": "Kalimantan Utara",
+    "full_path": "Kota Tarakan, Kalimantan Utara"
+  },
+  {
+    "id": "71.01",
+    "type": "Kabupaten",
+    "name": "Bolaang Mongondow",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Bolaang Mongondow, Sulawesi Utara"
+  },
+  {
+    "id": "71.02",
+    "type": "Kabupaten",
+    "name": "Minahasa",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Minahasa, Sulawesi Utara"
+  },
+  {
+    "id": "71.03",
+    "type": "Kabupaten",
+    "name": "Kepulauan Sangihe",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Kepulauan Sangihe, Sulawesi Utara"
+  },
+  {
+    "id": "71.04",
+    "type": "Kabupaten",
+    "name": "Kepulauan Talaud",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Kepulauan Talaud, Sulawesi Utara"
+  },
+  {
+    "id": "71.05",
+    "type": "Kabupaten",
+    "name": "Minahasa Selatan",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Minahasa Selatan, Sulawesi Utara"
+  },
+  {
+    "id": "71.06",
+    "type": "Kabupaten",
+    "name": "Minahasa Utara",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Minahasa Utara, Sulawesi Utara"
+  },
+  {
+    "id": "71.07",
+    "type": "Kabupaten",
+    "name": "Minahasa Tenggara",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Minahasa Tenggara, Sulawesi Utara"
+  },
+  {
+    "id": "71.08",
+    "type": "Kabupaten",
+    "name": "Bolaang Mongondow Utara",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Bolaang Mongondow Utara, Sulawesi Utara"
+  },
+  {
+    "id": "71.09",
+    "type": "Kabupaten",
+    "name": "Kep. Siau Tagulandang Biaro",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Kep. Siau Tagulandang Biaro, Sulawesi Utara"
+  },
+  {
+    "id": "71.10",
+    "type": "Kabupaten",
+    "name": "Bolaang Mongondow Timur",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Bolaang Mongondow Timur, Sulawesi Utara"
+  },
+  {
+    "id": "71.11",
+    "type": "Kabupaten",
+    "name": "Bolaang Mongondow Selatan",
+    "province": "Sulawesi Utara",
+    "full_path": "Kabupaten Bolaang Mongondow Selatan, Sulawesi Utara"
+  },
+  {
+    "id": "71.71",
+    "type": "Kota",
+    "name": "Manado",
+    "province": "Sulawesi Utara",
+    "full_path": "Kota Manado, Sulawesi Utara"
+  },
+  {
+    "id": "71.72",
+    "type": "Kota",
+    "name": "Bitung",
+    "province": "Sulawesi Utara",
+    "full_path": "Kota Bitung, Sulawesi Utara"
+  },
+  {
+    "id": "71.73",
+    "type": "Kota",
+    "name": "Tomohon",
+    "province": "Sulawesi Utara",
+    "full_path": "Kota Tomohon, Sulawesi Utara"
+  },
+  {
+    "id": "71.74",
+    "type": "Kota",
+    "name": "Kotamobagu",
+    "province": "Sulawesi Utara",
+    "full_path": "Kota Kotamobagu, Sulawesi Utara"
+  },
+  {
+    "id": "72.01",
+    "type": "Kabupaten",
+    "name": "Banggai",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Banggai, Sulawesi Tengah"
+  },
+  {
+    "id": "72.02",
+    "type": "Kabupaten",
+    "name": "Poso",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Poso, Sulawesi Tengah"
+  },
+  {
+    "id": "72.03",
+    "type": "Kabupaten",
+    "name": "Donggala",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Donggala, Sulawesi Tengah"
+  },
+  {
+    "id": "72.04",
+    "type": "Kabupaten",
+    "name": "Toli-Toli",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Toli-Toli, Sulawesi Tengah"
+  },
+  {
+    "id": "72.05",
+    "type": "Kabupaten",
+    "name": "Buol",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Buol, Sulawesi Tengah"
+  },
+  {
+    "id": "72.06",
+    "type": "Kabupaten",
+    "name": "Morowali",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Morowali, Sulawesi Tengah"
+  },
+  {
+    "id": "72.07",
+    "type": "Kabupaten",
+    "name": "Banggai Kepulauan",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Banggai Kepulauan, Sulawesi Tengah"
+  },
+  {
+    "id": "72.08",
+    "type": "Kabupaten",
+    "name": "Parigi Moutong",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Parigi Moutong, Sulawesi Tengah"
+  },
+  {
+    "id": "72.09",
+    "type": "Kabupaten",
+    "name": "Tojo Una Una",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Tojo Una Una, Sulawesi Tengah"
+  },
+  {
+    "id": "72.10",
+    "type": "Kabupaten",
+    "name": "Sigi",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Sigi, Sulawesi Tengah"
+  },
+  {
+    "id": "72.11",
+    "type": "Kabupaten",
+    "name": "Banggai Laut",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Banggai Laut, Sulawesi Tengah"
+  },
+  {
+    "id": "72.12",
+    "type": "Kabupaten",
+    "name": "Morowali Utara",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kabupaten Morowali Utara, Sulawesi Tengah"
+  },
+  {
+    "id": "72.71",
+    "type": "Kota",
+    "name": "Palu",
+    "province": "Sulawesi Tengah",
+    "full_path": "Kota Palu, Sulawesi Tengah"
+  },
+  {
+    "id": "73.01",
+    "type": "Kabupaten",
+    "name": "Kepulauan Selayar",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Kepulauan Selayar, Sulawesi Selatan"
+  },
+  {
+    "id": "73.02",
+    "type": "Kabupaten",
+    "name": "Bulukumba",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Bulukumba, Sulawesi Selatan"
+  },
+  {
+    "id": "73.03",
+    "type": "Kabupaten",
+    "name": "Bantaeng",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Bantaeng, Sulawesi Selatan"
+  },
+  {
+    "id": "73.04",
+    "type": "Kabupaten",
+    "name": "Jeneponto",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Jeneponto, Sulawesi Selatan"
+  },
+  {
+    "id": "73.05",
+    "type": "Kabupaten",
+    "name": "Takalar",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Takalar, Sulawesi Selatan"
+  },
+  {
+    "id": "73.06",
+    "type": "Kabupaten",
+    "name": "Gowa",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Gowa, Sulawesi Selatan"
+  },
+  {
+    "id": "73.07",
+    "type": "Kabupaten",
+    "name": "Sinjai",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Sinjai, Sulawesi Selatan"
+  },
+  {
+    "id": "73.08",
+    "type": "Kabupaten",
+    "name": "Bone",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Bone, Sulawesi Selatan"
+  },
+  {
+    "id": "73.09",
+    "type": "Kabupaten",
+    "name": "Maros",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Maros, Sulawesi Selatan"
+  },
+  {
+    "id": "73.10",
+    "type": "Kabupaten",
+    "name": "Pangkajene dan Kepulauan",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Pangkajene dan Kepulauan, Sulawesi Selatan"
+  },
+  {
+    "id": "73.11",
+    "type": "Kabupaten",
+    "name": "Barru",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Barru, Sulawesi Selatan"
+  },
+  {
+    "id": "73.12",
+    "type": "Kabupaten",
+    "name": "Soppeng",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Soppeng, Sulawesi Selatan"
+  },
+  {
+    "id": "73.13",
+    "type": "Kabupaten",
+    "name": "Wajo",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Wajo, Sulawesi Selatan"
+  },
+  {
+    "id": "73.14",
+    "type": "Kabupaten",
+    "name": "Sidenreng Rappang",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Sidenreng Rappang, Sulawesi Selatan"
+  },
+  {
+    "id": "73.15",
+    "type": "Kabupaten",
+    "name": "Pinrang",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Pinrang, Sulawesi Selatan"
+  },
+  {
+    "id": "73.16",
+    "type": "Kabupaten",
+    "name": "Enrekang",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Enrekang, Sulawesi Selatan"
+  },
+  {
+    "id": "73.17",
+    "type": "Kabupaten",
+    "name": "Luwu",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Luwu, Sulawesi Selatan"
+  },
+  {
+    "id": "73.18",
+    "type": "Kabupaten",
+    "name": "Tana Toraja",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Tana Toraja, Sulawesi Selatan"
+  },
+  {
+    "id": "73.22",
+    "type": "Kabupaten",
+    "name": "Luwu Utara",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Luwu Utara, Sulawesi Selatan"
+  },
+  {
+    "id": "73.24",
+    "type": "Kabupaten",
+    "name": "Luwu Timur",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Luwu Timur, Sulawesi Selatan"
+  },
+  {
+    "id": "73.26",
+    "type": "Kabupaten",
+    "name": "Toraja Utara",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kabupaten Toraja Utara, Sulawesi Selatan"
+  },
+  {
+    "id": "73.71",
+    "type": "Kota",
+    "name": "Makassar",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kota Makassar, Sulawesi Selatan"
+  },
+  {
+    "id": "73.72",
+    "type": "Kota",
+    "name": "Parepare",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kota Parepare, Sulawesi Selatan"
+  },
+  {
+    "id": "73.73",
+    "type": "Kota",
+    "name": "Palopo",
+    "province": "Sulawesi Selatan",
+    "full_path": "Kota Palopo, Sulawesi Selatan"
+  },
+  {
+    "id": "74.01",
+    "type": "Kabupaten",
+    "name": "Kolaka",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Kolaka, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.02",
+    "type": "Kabupaten",
+    "name": "Konawe",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Konawe, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.03",
+    "type": "Kabupaten",
+    "name": "Muna",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Muna, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.04",
+    "type": "Kabupaten",
+    "name": "Buton",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Buton, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.05",
+    "type": "Kabupaten",
+    "name": "Konawe Selatan",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Konawe Selatan, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.06",
+    "type": "Kabupaten",
+    "name": "Bombana",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Bombana, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.07",
+    "type": "Kabupaten",
+    "name": "Wakatobi",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Wakatobi, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.08",
+    "type": "Kabupaten",
+    "name": "Kolaka Utara",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Kolaka Utara, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.09",
+    "type": "Kabupaten",
+    "name": "Konawe Utara",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Konawe Utara, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.10",
+    "type": "Kabupaten",
+    "name": "Buton Utara",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Buton Utara, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.11",
+    "type": "Kabupaten",
+    "name": "Kolaka Timur",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Kolaka Timur, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.12",
+    "type": "Kabupaten",
+    "name": "Konawe Kepulauan",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Konawe Kepulauan, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.13",
+    "type": "Kabupaten",
+    "name": "Muna Barat",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Muna Barat, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.14",
+    "type": "Kabupaten",
+    "name": "Buton Tengah",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Buton Tengah, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.15",
+    "type": "Kabupaten",
+    "name": "Buton Selatan",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kabupaten Buton Selatan, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.71",
+    "type": "Kota",
+    "name": "Kendari",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kota Kendari, Sulawesi Tenggara"
+  },
+  {
+    "id": "74.72",
+    "type": "Kota",
+    "name": "Bau Bau",
+    "province": "Sulawesi Tenggara",
+    "full_path": "Kota Bau Bau, Sulawesi Tenggara"
+  },
+  {
+    "id": "75.01",
+    "type": "Kabupaten",
+    "name": "Gorontalo",
+    "province": "Gorontalo",
+    "full_path": "Kabupaten Gorontalo, Gorontalo"
+  },
+  {
+    "id": "75.02",
+    "type": "Kabupaten",
+    "name": "Boalemo",
+    "province": "Gorontalo",
+    "full_path": "Kabupaten Boalemo, Gorontalo"
+  },
+  {
+    "id": "75.03",
+    "type": "Kabupaten",
+    "name": "Bone Bolango",
+    "province": "Gorontalo",
+    "full_path": "Kabupaten Bone Bolango, Gorontalo"
+  },
+  {
+    "id": "75.04",
+    "type": "Kabupaten",
+    "name": "Pohuwato",
+    "province": "Gorontalo",
+    "full_path": "Kabupaten Pohuwato, Gorontalo"
+  },
+  {
+    "id": "75.05",
+    "type": "Kabupaten",
+    "name": "Gorontalo Utara",
+    "province": "Gorontalo",
+    "full_path": "Kabupaten Gorontalo Utara, Gorontalo"
+  },
+  {
+    "id": "75.71",
+    "type": "Kota",
+    "name": "Gorontalo",
+    "province": "Gorontalo",
+    "full_path": "Kota Gorontalo, Gorontalo"
+  },
+  {
+    "id": "76.01",
+    "type": "Kabupaten",
+    "name": "Pasangkayu",
+    "province": "Sulawesi Barat",
+    "full_path": "Kabupaten Pasangkayu, Sulawesi Barat"
+  },
+  {
+    "id": "76.02",
+    "type": "Kabupaten",
+    "name": "Mamuju",
+    "province": "Sulawesi Barat",
+    "full_path": "Kabupaten Mamuju, Sulawesi Barat"
+  },
+  {
+    "id": "76.03",
+    "type": "Kabupaten",
+    "name": "Mamasa",
+    "province": "Sulawesi Barat",
+    "full_path": "Kabupaten Mamasa, Sulawesi Barat"
+  },
+  {
+    "id": "76.04",
+    "type": "Kabupaten",
+    "name": "Polewali Mandar",
+    "province": "Sulawesi Barat",
+    "full_path": "Kabupaten Polewali Mandar, Sulawesi Barat"
+  },
+  {
+    "id": "76.05",
+    "type": "Kabupaten",
+    "name": "Majene",
+    "province": "Sulawesi Barat",
+    "full_path": "Kabupaten Majene, Sulawesi Barat"
+  },
+  {
+    "id": "76.06",
+    "type": "Kabupaten",
+    "name": "Mamuju Tengah",
+    "province": "Sulawesi Barat",
+    "full_path": "Kabupaten Mamuju Tengah, Sulawesi Barat"
+  },
+  {
+    "id": "81.01",
+    "type": "Kabupaten",
+    "name": "Maluku Tengah",
+    "province": "Maluku",
+    "full_path": "Kabupaten Maluku Tengah, Maluku"
+  },
+  {
+    "id": "81.02",
+    "type": "Kabupaten",
+    "name": "Maluku Tenggara",
+    "province": "Maluku",
+    "full_path": "Kabupaten Maluku Tenggara, Maluku"
+  },
+  {
+    "id": "81.03",
+    "type": "Kabupaten",
+    "name": "Kepulauan Tanimbar",
+    "province": "Maluku",
+    "full_path": "Kabupaten Kepulauan Tanimbar, Maluku"
+  },
+  {
+    "id": "81.04",
+    "type": "Kabupaten",
+    "name": "Buru",
+    "province": "Maluku",
+    "full_path": "Kabupaten Buru, Maluku"
+  },
+  {
+    "id": "81.05",
+    "type": "Kabupaten",
+    "name": "Seram Bagian Timur",
+    "province": "Maluku",
+    "full_path": "Kabupaten Seram Bagian Timur, Maluku"
+  },
+  {
+    "id": "81.06",
+    "type": "Kabupaten",
+    "name": "Seram Bagian Barat",
+    "province": "Maluku",
+    "full_path": "Kabupaten Seram Bagian Barat, Maluku"
+  },
+  {
+    "id": "81.07",
+    "type": "Kabupaten",
+    "name": "Kepulauan Aru",
+    "province": "Maluku",
+    "full_path": "Kabupaten Kepulauan Aru, Maluku"
+  },
+  {
+    "id": "81.08",
+    "type": "Kabupaten",
+    "name": "Maluku Barat Daya",
+    "province": "Maluku",
+    "full_path": "Kabupaten Maluku Barat Daya, Maluku"
+  },
+  {
+    "id": "81.09",
+    "type": "Kabupaten",
+    "name": "Buru Selatan",
+    "province": "Maluku",
+    "full_path": "Kabupaten Buru Selatan, Maluku"
+  },
+  {
+    "id": "81.71",
+    "type": "Kota",
+    "name": "Ambon",
+    "province": "Maluku",
+    "full_path": "Kota Ambon, Maluku"
+  },
+  {
+    "id": "81.72",
+    "type": "Kota",
+    "name": "Tual",
+    "province": "Maluku",
+    "full_path": "Kota Tual, Maluku"
+  },
+  {
+    "id": "82.01",
+    "type": "Kabupaten",
+    "name": "Halmahera Barat",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Halmahera Barat, Maluku Utara"
+  },
+  {
+    "id": "82.02",
+    "type": "Kabupaten",
+    "name": "Halmahera Tengah",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Halmahera Tengah, Maluku Utara"
+  },
+  {
+    "id": "82.03",
+    "type": "Kabupaten",
+    "name": "Halmahera Utara",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Halmahera Utara, Maluku Utara"
+  },
+  {
+    "id": "82.04",
+    "type": "Kabupaten",
+    "name": "Halmahera Selatan",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Halmahera Selatan, Maluku Utara"
+  },
+  {
+    "id": "82.05",
+    "type": "Kabupaten",
+    "name": "Kepulauan Sula",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Kepulauan Sula, Maluku Utara"
+  },
+  {
+    "id": "82.06",
+    "type": "Kabupaten",
+    "name": "Halmahera Timur",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Halmahera Timur, Maluku Utara"
+  },
+  {
+    "id": "82.07",
+    "type": "Kabupaten",
+    "name": "Pulau Morotai",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Pulau Morotai, Maluku Utara"
+  },
+  {
+    "id": "82.08",
+    "type": "Kabupaten",
+    "name": "Pulau Taliabu",
+    "province": "Maluku Utara",
+    "full_path": "Kabupaten Pulau Taliabu, Maluku Utara"
+  },
+  {
+    "id": "82.71",
+    "type": "Kota",
+    "name": "Ternate",
+    "province": "Maluku Utara",
+    "full_path": "Kota Ternate, Maluku Utara"
+  },
+  {
+    "id": "82.72",
+    "type": "Kota",
+    "name": "Tidore Kepulauan",
+    "province": "Maluku Utara",
+    "full_path": "Kota Tidore Kepulauan, Maluku Utara"
+  },
+  {
+    "id": "91.03",
+    "type": "Kabupaten",
+    "name": "Jayapura",
+    "province": "Papua",
+    "full_path": "Kabupaten Jayapura, Papua"
+  },
+  {
+    "id": "91.05",
+    "type": "Kabupaten",
+    "name": "Kepulauan Yapen",
+    "province": "Papua",
+    "full_path": "Kabupaten Kepulauan Yapen, Papua"
+  },
+  {
+    "id": "91.06",
+    "type": "Kabupaten",
+    "name": "Biak Numfor",
+    "province": "Papua",
+    "full_path": "Kabupaten Biak Numfor, Papua"
+  },
+  {
+    "id": "91.10",
+    "type": "Kabupaten",
+    "name": "Sarmi",
+    "province": "Papua",
+    "full_path": "Kabupaten Sarmi, Papua"
+  },
+  {
+    "id": "91.11",
+    "type": "Kabupaten",
+    "name": "Keerom",
+    "province": "Papua",
+    "full_path": "Kabupaten Keerom, Papua"
+  },
+  {
+    "id": "91.15",
+    "type": "Kabupaten",
+    "name": "Waropen",
+    "province": "Papua",
+    "full_path": "Kabupaten Waropen, Papua"
+  },
+  {
+    "id": "91.19",
+    "type": "Kabupaten",
+    "name": "Supiori",
+    "province": "Papua",
+    "full_path": "Kabupaten Supiori, Papua"
+  },
+  {
+    "id": "91.20",
+    "type": "Kabupaten",
+    "name": "Mamberamo Raya",
+    "province": "Papua",
+    "full_path": "Kabupaten Mamberamo Raya, Papua"
+  },
+  {
+    "id": "91.71",
+    "type": "Kota",
+    "name": "Jayapura",
+    "province": "Papua",
+    "full_path": "Kota Jayapura, Papua"
+  },
+  {
+    "id": "92.02",
+    "type": "Kabupaten",
+    "name": "Manokwari",
+    "province": "Papua Barat",
+    "full_path": "Kabupaten Manokwari, Papua Barat"
+  },
+  {
+    "id": "92.03",
+    "type": "Kabupaten",
+    "name": "Fak Fak",
+    "province": "Papua Barat",
+    "full_path": "Kabupaten Fak Fak, Papua Barat"
+  },
+  {
+    "id": "92.06",
+    "type": "Kabupaten",
+    "name": "Teluk Bintuni",
+    "province": "Papua Barat",
+    "full_path": "Kabupaten Teluk Bintuni, Papua Barat"
+  },
+  {
+    "id": "92.07",
+    "type": "Kabupaten",
+    "name": "Teluk Wondama",
+    "province": "Papua Barat",
+    "full_path": "Kabupaten Teluk Wondama, Papua Barat"
+  },
+  {
+    "id": "92.08",
+    "type": "Kabupaten",
+    "name": "Kaimana",
+    "province": "Papua Barat",
+    "full_path": "Kabupaten Kaimana, Papua Barat"
+  },
+  {
+    "id": "92.11",
+    "type": "Kabupaten",
+    "name": "Manokwari Selatan",
+    "province": "Papua Barat",
+    "full_path": "Kabupaten Manokwari Selatan, Papua Barat"
+  },
+  {
+    "id": "92.12",
+    "type": "Kabupaten",
+    "name": "Pegunungan Arfak",
+    "province": "Papua Barat",
+    "full_path": "Kabupaten Pegunungan Arfak, Papua Barat"
+  },
+  {
+    "id": "93.01",
+    "type": "Kabupaten",
+    "name": "Merauke",
+    "province": "Papua Selatan",
+    "full_path": "Kabupaten Merauke, Papua Selatan"
+  },
+  {
+    "id": "93.02",
+    "type": "Kabupaten",
+    "name": "Boven Digoel",
+    "province": "Papua Selatan",
+    "full_path": "Kabupaten Boven Digoel, Papua Selatan"
+  },
+  {
+    "id": "93.03",
+    "type": "Kabupaten",
+    "name": "Mappi",
+    "province": "Papua Selatan",
+    "full_path": "Kabupaten Mappi, Papua Selatan"
+  },
+  {
+    "id": "93.04",
+    "type": "Kabupaten",
+    "name": "Asmat",
+    "province": "Papua Selatan",
+    "full_path": "Kabupaten Asmat, Papua Selatan"
+  },
+  {
+    "id": "94.01",
+    "type": "Kabupaten",
+    "name": "Nabire",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Nabire, Papua Tengah"
+  },
+  {
+    "id": "94.02",
+    "type": "Kabupaten",
+    "name": "Puncak Jaya",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Puncak Jaya, Papua Tengah"
+  },
+  {
+    "id": "94.03",
+    "type": "Kabupaten",
+    "name": "Paniai",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Paniai, Papua Tengah"
+  },
+  {
+    "id": "94.04",
+    "type": "Kabupaten",
+    "name": "Mimika",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Mimika, Papua Tengah"
+  },
+  {
+    "id": "94.05",
+    "type": "Kabupaten",
+    "name": "Puncak",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Puncak, Papua Tengah"
+  },
+  {
+    "id": "94.06",
+    "type": "Kabupaten",
+    "name": "Dogiyai",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Dogiyai, Papua Tengah"
+  },
+  {
+    "id": "94.07",
+    "type": "Kabupaten",
+    "name": "Intan Jaya",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Intan Jaya, Papua Tengah"
+  },
+  {
+    "id": "94.08",
+    "type": "Kabupaten",
+    "name": "Deiyai",
+    "province": "Papua Tengah",
+    "full_path": "Kabupaten Deiyai, Papua Tengah"
+  },
+  {
+    "id": "95.01",
+    "type": "Kabupaten",
+    "name": "Jayawijaya",
+    "province": "Papua Pegunungan",
+    "full_path": "Kabupaten Jayawijaya, Papua Pegunungan"
+  },
+  {
+    "id": "95.02",
+    "type": "Kab",
+    "name": "Pegunungan Bintang",
+    "province": "Papua Pegunungan",
+    "full_path": "Kab Pegunungan Bintang, Papua Pegunungan"
+  },
+  {
+    "id": "95.03",
+    "type": "Kabupaten",
+    "name": "Yahukimo",
+    "province": "Papua Pegunungan",
+    "full_path": "Kabupaten Yahukimo, Papua Pegunungan"
+  },
+  {
+    "id": "95.04",
+    "type": "Kabupaten",
+    "name": "Tolikara",
+    "province": "Papua Pegunungan",
+    "full_path": "Kabupaten Tolikara, Papua Pegunungan"
+  },
+  {
+    "id": "95.05",
+    "type": "Kabupaten",
+    "name": "Mamberamo Tengah",
+    "province": "Papua Pegunungan",
+    "full_path": "Kabupaten Mamberamo Tengah, Papua Pegunungan"
+  },
+  {
+    "id": "95.06",
+    "type": "Kabupaten",
+    "name": "Yalimo",
+    "province": "Papua Pegunungan",
+    "full_path": "Kabupaten Yalimo, Papua Pegunungan"
+  },
+  {
+    "id": "95.07",
+    "type": "Kabupaten",
+    "name": "Lanny Jaya",
+    "province": "Papua Pegunungan",
+    "full_path": "Kabupaten Lanny Jaya, Papua Pegunungan"
+  },
+  {
+    "id": "95.08",
+    "type": "Kabupaten",
+    "name": "Nduga",
+    "province": "Papua Pegunungan",
+    "full_path": "Kabupaten Nduga, Papua Pegunungan"
+  },
+  {
+    "id": "96.01",
+    "type": "Kabupaten",
+    "name": "Sorong",
+    "province": "Papua Barat Daya",
+    "full_path": "Kabupaten Sorong, Papua Barat Daya"
+  },
+  {
+    "id": "96.02",
+    "type": "Kabupaten",
+    "name": "Sorong Selatan",
+    "province": "Papua Barat Daya",
+    "full_path": "Kabupaten Sorong Selatan, Papua Barat Daya"
+  },
+  {
+    "id": "96.03",
+    "type": "Kabupaten",
+    "name": "Raja Ampat",
+    "province": "Papua Barat Daya",
+    "full_path": "Kabupaten Raja Ampat, Papua Barat Daya"
+  },
+  {
+    "id": "96.04",
+    "type": "Kabupaten",
+    "name": "Tambrauw",
+    "province": "Papua Barat Daya",
+    "full_path": "Kabupaten Tambrauw, Papua Barat Daya"
+  },
+  {
+    "id": "96.05",
+    "type": "Kabupaten",
+    "name": "Maybrat",
+    "province": "Papua Barat Daya",
+    "full_path": "Kabupaten Maybrat, Papua Barat Daya"
+  },
+  {
+    "id": "96.71",
+    "type": "Kota",
+    "name": "Sorong",
+    "province": "Papua Barat Daya",
+    "full_path": "Kota Sorong, Papua Barat Daya"
+  }
+]

@@ -76,9 +76,27 @@ public static class AdministrativeAreaDtoExtensions
         foreach (var dto in provinceDtos)
         {
             var province = new ProvinceProper(dto);
+
             provinces.Add(province);
         }
 
         return provinces;
+    }
+
+    public static List<RegencyProper> MapRegencyDtosToPropers(this List<RegencyDto> regencyDtos, List<ProvinceDto> provinceDtos)
+    {
+        List<RegencyProper> regencies = [];
+
+        foreach (var dto in regencyDtos)
+        {
+            var provinceDto = provinceDtos.Find(province => dto.ProvinceCode == province.Code)
+                ?? throw new NullReferenceException();
+
+            var regency = new RegencyProper(dto, provinceDto!);
+
+            regencies.Add(regency);
+        }
+
+        return regencies;
     }
 }
