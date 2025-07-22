@@ -65,6 +65,6 @@ internal class Program
 
         stopwatch.Stop();
 
-        Console.WriteLine($"Completed in {(int)stopwatch.Elapsed.TotalMinutes} minutes and {stopwatch.Elapsed.Seconds:D2} seconds.\n");
+        Console.WriteLine($"\nCompleted in {(int)stopwatch.Elapsed.TotalMinutes} minutes and {stopwatch.Elapsed.Seconds:D2} seconds.\n");
     }
 }
