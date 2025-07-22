@@ -27,6 +27,9 @@ public record RegencyProper
     [JsonPropertyName("full_path")]
     public string FullPath => _fullPath;
 
+    [JsonIgnore] string KabupatenKota => $"{_type.TruncateType()} {_regency.name}";
+    [JsonIgnore] string Provinsi => _province;
+
     public RegencyProper(RegencyDto regencyDto, ProvinceDto provinceDto)
     {
         _regency = regencyDto.Name.SplitRegencyType();
@@ -34,6 +37,6 @@ public record RegencyProper
         _id = regencyDto.Code;
         _type = _regency.type;
         _province = provinceDto.Name;
-        _fullPath = $"{_type.TruncateType()} {_regency.name}, {_province}";
+        _fullPath = $"{KabupatenKota}, {Provinsi}";
     }
 }

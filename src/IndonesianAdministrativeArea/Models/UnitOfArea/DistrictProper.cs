@@ -31,6 +31,10 @@ public record DistrictProper
     [JsonPropertyName("full_path")]
     public string FullPath => _fullPath;
 
+    [JsonIgnore] string Kecamatan => $"Kec. {_name}";
+    [JsonIgnore] string KabupatenKota => $"{_regency.type.TruncateType()} {_regency.name}";
+    [JsonIgnore] string Provinsi => _province;
+
     public DistrictProper(DistrictDto districtDto, RegencyDto regencyDto, ProvinceDto provinceDto)
     {
         _regency = regencyDto.Name.SplitRegencyType();
@@ -38,6 +42,6 @@ public record DistrictProper
         _id = districtDto.Code;
         _name = districtDto.Name;
         _province = provinceDto.Name;
-        _fullPath = $"{_type.TruncateType()} {_name}, {_regency.type.TruncateType()} {_regency.name}, {_province}";
+        _fullPath = $"{Kecamatan}, {KabupatenKota}, {Provinsi}";
     }
 }

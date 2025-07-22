@@ -22,10 +22,12 @@ public record ProvinceProper
     [JsonPropertyName("full_path")]
     public string FullPath => _fullPath;
 
+    [JsonIgnore] string Provinsi => _name;
+
     public ProvinceProper(ProvinceDto provinceDto)
     {
         _id = provinceDto.Code;
         _name = provinceDto.Name;
-        _fullPath = _name;
+        _fullPath = $"{Provinsi}";
     }
 }
