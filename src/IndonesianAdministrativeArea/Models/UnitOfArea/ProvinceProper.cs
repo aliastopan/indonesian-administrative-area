@@ -5,12 +5,13 @@ namespace IndonesianAdministrativeArea.Models.UnitOfArea;
 
 public record ProvinceProper
 {
-    private readonly string _code;
+    private readonly string _id;
     private readonly string _type = "Provinsi";
     private readonly string _name;
+    private readonly string _fullPath;
 
-    [JsonPropertyName("code")]
-    public string Code => _code;
+    [JsonPropertyName("id")]
+    public string Id => _id;
 
     [JsonPropertyName("type")]
     public string Type => _type;
@@ -18,9 +19,13 @@ public record ProvinceProper
     [JsonPropertyName("name")]
     public string Name => _name;
 
+    [JsonPropertyName("full_path")]
+    public string FullPath => _fullPath;
+
     public ProvinceProper(ProvinceDto provinceDto)
     {
-        _code = provinceDto.Code;
+        _id = provinceDto.Code;
         _name = provinceDto.Name;
+        _fullPath = _name;
     }
 }

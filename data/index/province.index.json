@@ -1,0 +1,230 @@
+[
+  {
+    "id": "11",
+    "type": "Provinsi",
+    "name": "Aceh",
+    "full_path": "Aceh"
+  },
+  {
+    "id": "12",
+    "type": "Provinsi",
+    "name": "Sumatera Utara",
+    "full_path": "Sumatera Utara"
+  },
+  {
+    "id": "13",
+    "type": "Provinsi",
+    "name": "Sumatera Barat",
+    "full_path": "Sumatera Barat"
+  },
+  {
+    "id": "14",
+    "type": "Provinsi",
+    "name": "Riau",
+    "full_path": "Riau"
+  },
+  {
+    "id": "15",
+    "type": "Provinsi",
+    "name": "Jambi",
+    "full_path": "Jambi"
+  },
+  {
+    "id": "16",
+    "type": "Provinsi",
+    "name": "Sumatera Selatan",
+    "full_path": "Sumatera Selatan"
+  },
+  {
+    "id": "17",
+    "type": "Provinsi",
+    "name": "Bengkulu",
+    "full_path": "Bengkulu"
+  },
+  {
+    "id": "18",
+    "type": "Provinsi",
+    "name": "Lampung",
+    "full_path": "Lampung"
+  },
+  {
+    "id": "19",
+    "type": "Provinsi",
+    "name": "Kepulauan Bangka Belitung",
+    "full_path": "Kepulauan Bangka Belitung"
+  },
+  {
+    "id": "21",
+    "type": "Provinsi",
+    "name": "Kepulauan Riau",
+    "full_path": "Kepulauan Riau"
+  },
+  {
+    "id": "31",
+    "type": "Provinsi",
+    "name": "DKI Jakarta",
+    "full_path": "DKI Jakarta"
+  },
+  {
+    "id": "32",
+    "type": "Provinsi",
+    "name": "Jawa Barat",
+    "full_path": "Jawa Barat"
+  },
+  {
+    "id": "33",
+    "type": "Provinsi",
+    "name": "Jawa Tengah",
+    "full_path": "Jawa Tengah"
+  },
+  {
+    "id": "34",
+    "type": "Provinsi",
+    "name": "Daerah Istimewa Yogyakarta",
+    "full_path": "Daerah Istimewa Yogyakarta"
+  },
+  {
+    "id": "35",
+    "type": "Provinsi",
+    "name": "Jawa Timur",
+    "full_path": "Jawa Timur"
+  },
+  {
+    "id": "36",
+    "type": "Provinsi",
+    "name": "Banten",
+    "full_path": "Banten"
+  },
+  {
+    "id": "51",
+    "type": "Provinsi",
+    "name": "Bali",
+    "full_path": "Bali"
+  },
+  {
+    "id": "52",
+    "type": "Provinsi",
+    "name": "Nusa Tenggara Barat",
+    "full_path": "Nusa Tenggara Barat"
+  },
+  {
+    "id": "53",
+    "type": "Provinsi",
+    "name": "Nusa Tenggara Timur",
+    "full_path": "Nusa Tenggara Timur"
+  },
+  {
+    "id": "61",
+    "type": "Provinsi",
+    "name": "Kalimantan Barat",
+    "full_path": "Kalimantan Barat"
+  },
+  {
+    "id": "62",
+    "type": "Provinsi",
+    "name": "Kalimantan Tengah",
+    "full_path": "Kalimantan Tengah"
+  },
+  {
+    "id": "63",
+    "type": "Provinsi",
+    "name": "Kalimantan Selatan",
+    "full_path": "Kalimantan Selatan"
+  },
+  {
+    "id": "64",
+    "type": "Provinsi",
+    "name": "Kalimantan Timur",
+    "full_path": "Kalimantan Timur"
+  },
+  {
+    "id": "65",
+    "type": "Provinsi",
+    "name": "Kalimantan Utara",
+    "full_path": "Kalimantan Utara"
+  },
+  {
+    "id": "71",
+    "type": "Provinsi",
+    "name": "Sulawesi Utara",
+    "full_path": "Sulawesi Utara"
+  },
+  {
+    "id": "72",
+    "type": "Provinsi",
+    "name": "Sulawesi Tengah",
+    "full_path": "Sulawesi Tengah"
+  },
+  {
+    "id": "73",
+    "type": "Provinsi",
+    "name": "Sulawesi Selatan",
+    "full_path": "Sulawesi Selatan"
+  },
+  {
+    "id": "74",
+    "type": "Provinsi",
+    "name": "Sulawesi Tenggara",
+    "full_path": "Sulawesi Tenggara"
+  },
+  {
+    "id": "75",
+    "type": "Provinsi",
+    "name": "Gorontalo",
+    "full_path": "Gorontalo"
+  },
+  {
+    "id": "76",
+    "type": "Provinsi",
+    "name": "Sulawesi Barat",
+    "full_path": "Sulawesi Barat"
+  },
+  {
+    "id": "81",
+    "type": "Provinsi",
+    "name": "Maluku",
+    "full_path": "Maluku"
+  },
+  {
+    "id": "82",
+    "type": "Provinsi",
+    "name": "Maluku Utara",
+    "full_path": "Maluku Utara"
+  },
+  {
+    "id": "91",
+    "type": "Provinsi",
+    "name": "Papua",
+    "full_path": "Papua"
+  },
+  {
+    "id": "92",
+    "type": "Provinsi",
+    "name": "Papua Barat",
+    "full_path": "Papua Barat"
+  },
+  {
+    "id": "93",
+    "type": "Provinsi",
+    "name": "Papua Selatan",
+    "full_path": "Papua Selatan"
+  },
+  {
+    "id": "94",
+    "type": "Provinsi",
+    "name": "Papua Tengah",
+    "full_path": "Papua Tengah"
+  },
+  {
+    "id": "95",
+    "type": "Provinsi",
+    "name": "Papua Pegunungan",
+    "full_path": "Papua Pegunungan"
+  },
+  {
+    "id": "96",
+    "type": "Provinsi",
+    "name": "Papua Barat Daya",
+    "full_path": "Papua Barat Daya"
+  }
+]
