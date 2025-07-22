@@ -39,7 +39,7 @@ public static class JsonService
 
         public static List<T> DeserializeDto<T>(string fileName)
         {
-            string? jsonContent = ReadJson(fileName);
+            string? jsonContent = ReadJson(fileName, "json");
 
             if (jsonContent is null)
                 return [];
@@ -47,13 +47,31 @@ public static class JsonService
             return JsonSerializer.Deserialize<List<T>>(jsonContent) ?? [];
         }
 
-        private static string? ReadJson(string fileName)
+        public static List<T> DeserializeIndex<T>(string fileName)
+        {
+            string? jsonContent = ReadJson(fileName, "index");
+
+            if (jsonContent is null)
+                return [];
+
+            return JsonSerializer.Deserialize<List<T>>(jsonContent, GetOptions()) ?? [];
+        }
+
+        private static string? ReadJson(string fileName, string source)
         {
             string projectDir = Directory.GetCurrentDirectory();
-            string filePath = Path.Combine(projectDir, "..", "..", "data", "json", fileName);
+            string filePath = Path.Combine(projectDir, "..", "..", "data", source, fileName);
             string fullPath = Path.GetFullPath(filePath);
 
             return File.ReadAllText(fullPath);
+        }
+
+        private static JsonSerializerOptions GetOptions()
+        {
+            return new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
         }
     }
 
