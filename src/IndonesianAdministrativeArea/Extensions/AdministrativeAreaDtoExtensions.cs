@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using IndonesianAdministrativeArea.Models.Dtos;
 using IndonesianAdministrativeArea.Models.UnitOfArea;
 
@@ -71,6 +72,9 @@ public static class AdministrativeAreaDtoExtensions
 
     public static List<ProvinceProper> MapProvinceDtosToPropers(this List<ProvinceDto> provinceDtos)
     {
+        int numberOfProvince = provinceDtos.Count;
+        int progress = 0;
+
         List<ProvinceProper> provinces = [];
 
         foreach (var dto in provinceDtos)
@@ -78,7 +82,13 @@ public static class AdministrativeAreaDtoExtensions
             var province = new ProvinceProper(dto);
 
             provinces.Add(province);
+
+            progress++;
+            double percent = (double)progress / numberOfProvince * 100;
+            Console.Write($"\rProvinsi: {percent:F0}% ({progress}/{numberOfProvince})");
         }
+
+        Console.Write("\n");
 
         return provinces;
     }
@@ -86,6 +96,9 @@ public static class AdministrativeAreaDtoExtensions
     public static List<RegencyProper> MapRegencyDtosToPropers(this List<RegencyDto> regencyDtos,
         List<ProvinceDto> provinceDtos)
     {
+        int numberOfRegencies = regencyDtos.Count;
+        int progress = 0;
+
         List<RegencyProper> regencies = [];
 
         foreach (var dto in regencyDtos)
@@ -96,7 +109,13 @@ public static class AdministrativeAreaDtoExtensions
             var regency = new RegencyProper(dto, provinceDto!);
 
             regencies.Add(regency);
+
+            progress++;
+            double percent = (double)progress / numberOfRegencies * 100;
+            Console.Write($"\rKabupaten/Kota: {percent:F0}% ({progress}/{numberOfRegencies})");
         }
+
+        Console.Write("\n");
 
         return regencies;
     }
@@ -104,6 +123,9 @@ public static class AdministrativeAreaDtoExtensions
     public static List<DistrictProper> MapDistrictDtosToPropers(this List<DistrictDto> districtDtos,
         List<RegencyDto> regencyDtos, List<ProvinceDto> provinceDtos)
     {
+        int numberOfDistricts = districtDtos.Count;
+        int progress = 0;
+
         List<DistrictProper> districts = [];
 
         foreach (var dto in districtDtos)
@@ -117,7 +139,12 @@ public static class AdministrativeAreaDtoExtensions
             var district = new DistrictProper(dto, regencyDto, provinceDto);
 
             districts.Add(district);
+            progress++;
+            double percent = (double)progress / numberOfDistricts * 100;
+            Console.Write($"\rKecamatan: {percent:F0}% ({progress}/{numberOfDistricts})");
         }
+
+        Console.Write("\n");
 
         return districts;
     }
@@ -125,6 +152,9 @@ public static class AdministrativeAreaDtoExtensions
     public static List<VillageProper> MapVillageDtosToPropers(this List<VillageDto> villageDtos,
         List<DistrictDto> districtDtos, List<RegencyDto> regencyDtos, List<ProvinceDto> provinceDtos)
     {
+        int numberOfVillages = villageDtos.Count;
+        int progress = 0;
+
         List<VillageProper> villages = [];
 
         foreach (var dto in villageDtos)
@@ -141,7 +171,13 @@ public static class AdministrativeAreaDtoExtensions
             var village = new VillageProper(dto, districtDto, regencyDto, provinceDto);
 
             villages.Add(village);
+
+            progress++;
+            double percent = (double)progress / numberOfVillages * 100;
+            Console.Write($"\rKelurahan/Desa: {percent:F0}% ({progress}/{numberOfVillages})");
         }
+
+        Console.Write("\n");
 
         return villages;
     }
