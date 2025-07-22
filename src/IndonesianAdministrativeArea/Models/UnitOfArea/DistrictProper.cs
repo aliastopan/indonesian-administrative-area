@@ -9,7 +9,7 @@ public record DistrictProper
     private readonly string _id;
     private readonly string _type = "Kecamatan";
     private readonly string _name;
-    private readonly string _regency;
+    private readonly (string type, string name) _regency;
     private readonly string _province;
     private readonly string _fullPath;
 
@@ -23,7 +23,7 @@ public record DistrictProper
     public string Name => _name;
 
     [JsonPropertyName("regency")]
-    public string Regency => _regency;
+    public string Regency => $"{_regency.type} {_regency.name}";
 
     [JsonPropertyName("province")]
     public string Province => _province;
@@ -33,12 +33,11 @@ public record DistrictProper
 
     public DistrictProper(DistrictDto districtDto, RegencyDto regencyDto, ProvinceDto provinceDto)
     {
-        (string type, string name) regency = regencyDto.Name.SplitRegencyType();
+        _regency = regencyDto.Name.SplitRegencyType();
 
         _id = districtDto.Code;
         _name = districtDto.Name;
-        _regency = regencyDto.Name;
         _province = provinceDto.Name;
-        _fullPath = $"{_type.TruncateType()} {_name}, {regency.type.TruncateType()} {regency.name}, {_province}";
+        _fullPath = $"{_type.TruncateType()} {_name}, {_regency.type.TruncateType()} {_regency.name}, {_province}";
     }
 }

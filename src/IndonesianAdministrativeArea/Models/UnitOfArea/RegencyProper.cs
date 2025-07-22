@@ -8,7 +8,7 @@ public record RegencyProper
 {
     private readonly string _id;
     private readonly string _type = "Kabupaten/Kota";
-    private readonly string _name;
+    private readonly (string type, string name) _regency;
     private readonly string _province;
     private readonly string _fullPath;
 
@@ -19,7 +19,7 @@ public record RegencyProper
     public string Type => _type;
 
     [JsonPropertyName("name")]
-    public string Name => _name;
+    public string Name => _regency.name;
 
     [JsonPropertyName("province")]
     public string Province => _province;
@@ -29,12 +29,11 @@ public record RegencyProper
 
     public RegencyProper(RegencyDto regencyDto, ProvinceDto provinceDto)
     {
-        (string type, string name) regency = regencyDto.Name.SplitRegencyType();
+        _regency = regencyDto.Name.SplitRegencyType();
 
         _id = regencyDto.Code;
-        _type = regency.type;
-        _name = regency.name;
+        _type = _regency.type;
         _province = provinceDto.Name;
-        _fullPath = $"{_type.TruncateType()} {_name}, {_province}";
+        _fullPath = $"{_type.TruncateType()} {_regency.name}, {_province}";
     }
 }
