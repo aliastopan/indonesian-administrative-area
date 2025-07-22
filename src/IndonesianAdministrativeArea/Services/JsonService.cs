@@ -36,6 +36,25 @@ public static class JsonService
                 .Select(village => new VillageDto(village.Code, village.Code.GetDistrictCode(), village.Name))
                 .OrderByVillageCode();
         }
+
+        public static List<T> DeserializeDto<T>(string fileName)
+        {
+            string? jsonContent = ReadJson(fileName);
+
+            if (jsonContent is null)
+                return [];
+
+            return JsonSerializer.Deserialize<List<T>>(jsonContent) ?? [];
+        }
+
+        private static string? ReadJson(string fileName)
+        {
+            string projectDir = Directory.GetCurrentDirectory();
+            string filePath = Path.Combine(projectDir, "..", "..", "data", "json", fileName);
+            string fullPath = Path.GetFullPath(filePath);
+
+            return File.ReadAllText(fullPath);
+        }
     }
 
     public static class Serializer

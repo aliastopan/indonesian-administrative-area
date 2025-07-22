@@ -4,10 +4,18 @@ using IndonesianAdministrativeArea.Services;
 
 internal class Program
 {
-    private static async Task Main(string[] args)
+    private static void Main(string[] args)
     {
-        // await GetAdministrativeAreasOfIndonesia();
-        await Task.CompletedTask;
+        GenerateUnitOfAreaIndex();
+    }
+
+    private static void GenerateUnitOfAreaIndex()
+    {
+        Console.WriteLine("Generating index...");
+
+        List<ProvinceDto> provinceDtos = JsonService.Deserializer.DeserializeDto<ProvinceDto>("provinces.json");
+
+        Console.WriteLine($"Count: {provinceDtos.Count}");
     }
 
     private static async Task GetAdministrativeAreasOfIndonesia()
