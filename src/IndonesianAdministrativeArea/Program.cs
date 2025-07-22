@@ -6,7 +6,8 @@ internal class Program
 {
     private static async Task Main(string[] args)
     {
-        await GetAdministrativeAreasOfIndonesia();
+        // await GetAdministrativeAreasOfIndonesia();
+        await Task.CompletedTask;
     }
 
     private static async Task GetAdministrativeAreasOfIndonesia()
