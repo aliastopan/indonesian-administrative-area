@@ -35,6 +35,6 @@ public record RegencyProper
         _type = regency.type;
         _name = regency.name;
         _province = provinceDto.Name;
-        _fullPath = $"{_type} {_name}, {_province}";
+        _fullPath = $"{_type.TruncateType()} {_name}, {_province}";
     }
 }
