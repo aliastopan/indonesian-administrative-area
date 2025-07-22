@@ -30,10 +30,15 @@ internal class Program
 
         Console.WriteLine($"Total Kecamatan: {districts.Count}");
 
+        List<VillageDto> villageDtos = JsonService.Deserializer.DeserializeDto<VillageDto>("villages.json");
+        List<VillageProper> villages = villageDtos.MapVillageDtosToPropers(districtDtos, regencyDtos, provinceDtos);
+
+        Console.WriteLine($"Total Kelurahan/Desa: {villages.Count}");
+
         IndexService.SerializeIndexJson<ProvinceProper>(provinces, "province.index.json");
         IndexService.SerializeIndexJson<RegencyProper>(regencies, "regencies.index.json");
         IndexService.SerializeIndexJson<DistrictProper>(districts, "district.index.json");
-
+        IndexService.SerializeIndexJson<VillageProper>(villages, "villages.index.json");
     }
 
     private static async Task GetAdministrativeAreasOfIndonesia()

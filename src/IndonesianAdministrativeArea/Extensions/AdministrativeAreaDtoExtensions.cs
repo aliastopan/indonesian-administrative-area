@@ -83,7 +83,8 @@ public static class AdministrativeAreaDtoExtensions
         return provinces;
     }
 
-    public static List<RegencyProper> MapRegencyDtosToPropers(this List<RegencyDto> regencyDtos, List<ProvinceDto> provinceDtos)
+    public static List<RegencyProper> MapRegencyDtosToPropers(this List<RegencyDto> regencyDtos,
+        List<ProvinceDto> provinceDtos)
     {
         List<RegencyProper> regencies = [];
 
@@ -100,7 +101,8 @@ public static class AdministrativeAreaDtoExtensions
         return regencies;
     }
 
-    public static List<DistrictProper> MapDistrictDtosToPropers(this List<DistrictDto> districtDtos, List<RegencyDto> regencyDtos, List<ProvinceDto> provinceDtos)
+    public static List<DistrictProper> MapDistrictDtosToPropers(this List<DistrictDto> districtDtos,
+        List<RegencyDto> regencyDtos, List<ProvinceDto> provinceDtos)
     {
         List<DistrictProper> districts = [];
 
@@ -118,5 +120,29 @@ public static class AdministrativeAreaDtoExtensions
         }
 
         return districts;
+    }
+
+    public static List<VillageProper> MapVillageDtosToPropers(this List<VillageDto> villageDtos,
+        List<DistrictDto> districtDtos, List<RegencyDto> regencyDtos, List<ProvinceDto> provinceDtos)
+    {
+        List<VillageProper> villages = [];
+
+        foreach (var dto in villageDtos)
+        {
+            var provinceDto = provinceDtos.Find(p => dto.DistrictCode.GetProvinceCode() == p.Code)
+                ?? throw new NullReferenceException();
+
+            var regencyDto = regencyDtos.Find(r => dto.DistrictCode.GetRegencyCode() == r.Code)
+                ?? throw new NullReferenceException();
+
+            var districtDto = districtDtos.Find(d => dto.DistrictCode == d.Code)
+                ?? throw new NullReferenceException();
+
+            var village = new VillageProper(dto, districtDto, regencyDto, provinceDto);
+
+            villages.Add(village);
+        }
+
+        return villages;
     }
 }
