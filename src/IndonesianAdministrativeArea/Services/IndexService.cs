@@ -4,14 +4,14 @@ namespace IndonesianAdministrativeArea.Services;
 
 public static class IndexService
 {
-        public static void SerializeIndexJson<T>(List<T> administrativeArea, string fileName = "index.json")
-        {
-            string json = JsonSerializer.Serialize(administrativeArea, GetOptions());
+    public static void SerializeIndexJson<T>(List<T> administrativeArea, string fileName = "index.json")
+    {
+        string json = JsonSerializer.Serialize(administrativeArea, GetOptions());
 
-            WriteIndexJson(fileName, json);
-        }
+        WriteIndexJson(fileName, json);
+    }
 
-        private static void WriteIndexJson(string fileName, string jsonBody)
+    private static void WriteIndexJson(string fileName, string jsonBody)
     {
         string projectDir = Directory.GetCurrentDirectory();
         string filePath = Path.Combine(projectDir, "..", "..", "data", "index", fileName);
@@ -22,11 +22,11 @@ public static class IndexService
         File.WriteAllText(fullPath, jsonBody);
     }
 
-        private static JsonSerializerOptions GetOptions()
+    private static JsonSerializerOptions GetOptions()
+    {
+        return new JsonSerializerOptions
         {
-            return new JsonSerializerOptions
-            {
-                WriteIndented = true
-            };
-        }
+            WriteIndented = true
+        };
+    }
 }
