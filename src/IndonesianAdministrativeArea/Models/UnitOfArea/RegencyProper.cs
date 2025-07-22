@@ -13,7 +13,7 @@ public record RegencyProper
     private readonly string _fullPath;
 
     [JsonPropertyName("id")]
-    public string Code => _id;
+    public string Id => _id;
 
     [JsonPropertyName("type")]
     public string Type => _type;
