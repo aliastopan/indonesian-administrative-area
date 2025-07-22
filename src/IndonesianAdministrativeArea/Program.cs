@@ -23,10 +23,16 @@ internal class Program
         List<RegencyDto> regencyDtos = JsonService.Deserializer.DeserializeDto<RegencyDto>("regencies.json");
         List<RegencyProper> regencies = regencyDtos.MapRegencyDtosToPropers(provinceDtos);
 
-        Console.WriteLine($"Total Kabupaten/Kota: {provinces.Count}");
+        Console.WriteLine($"Total Kabupaten/Kota: {regencies.Count}");
+
+        List<DistrictDto> districtDtos = JsonService.Deserializer.DeserializeDto<DistrictDto>("districts.json");
+        List<DistrictProper> districts = districtDtos.MapDistrictDtosToPropers(regencyDtos, provinceDtos);
+
+        Console.WriteLine($"Total Kecamatan: {districts.Count}");
 
         IndexService.SerializeIndexJson<ProvinceProper>(provinces, "province.index.json");
         IndexService.SerializeIndexJson<RegencyProper>(regencies, "regencies.index.json");
+        IndexService.SerializeIndexJson<DistrictProper>(districts, "district.index.json");
 
     }
 
