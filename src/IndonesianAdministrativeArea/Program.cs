@@ -8,7 +8,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        GenerateUnitOfAreaIndex();
+        GenerateMeilisearchIndex();
     }
 
     private static void GenerateMeilisearchIndex()

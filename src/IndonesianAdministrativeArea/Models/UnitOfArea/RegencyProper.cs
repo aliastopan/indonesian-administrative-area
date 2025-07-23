@@ -42,11 +42,11 @@ public record RegencyProper
 
     [JsonConstructor]
     public RegencyProper(string id, string type, string name,
-        string province, string fullPath)
+        RegencyContext context, string fullPath)
     {
         _id = id.NormalizeId();
         _regency = (type, name);
-        _context = new RegencyContext(province);
+        _context = context;
         _fullPath = fullPath;
     }
 }

@@ -28,48 +28,47 @@ public record DistrictProper
     public string FullPath => _fullPath;
 
     [JsonIgnore] string Kecamatan => $"Kec. {_name}";
-    [JsonIgnore] string KabupatenKota => $"{Context.Regency.type.TruncateType()} {Context.Regency.name}";
+    [JsonIgnore] string KabupatenKota => $"{Context.RegencyTpl.type.TruncateType()} {Context.RegencyTpl.name}";
     [JsonIgnore] string Provinsi => Context.Province;
 
     public DistrictProper(DistrictDto districtDto, RegencyDto regencyDto, ProvinceDto provinceDto)
     {
         _id = districtDto.Code;
         _name = districtDto.Name;
-        _context = new DistrictContext(regencyDto.Name.SplitRegencyType(), provinceDto.Name);
+        _context = new DistrictContext(regencyDto.Name, provinceDto.Name);
         _fullPath = $"{Kecamatan}, {KabupatenKota}, {Provinsi}";
     }
 
     [JsonConstructor]
     public DistrictProper(string id, string type, string name,
-        string regency, string province, string fullPath)
+        DistrictContext context, string fullPath)
     {
         _id = id.NormalizeId();
         _type = type;
         _name = name;
-        _context = new DistrictContext(regency.SplitRegencyType(), province);
+        _context = context;
         _fullPath = fullPath;
     }
 }
 
 public record DistrictContext
 {
-    private readonly (string type, string name) _regency;
+    private readonly (string type, string name) _regencyTpl;
     private readonly string _province;
 
     [JsonIgnore]
-    public (string type, string name) Regency => _regency;
+    public (string type, string name) RegencyTpl => _regencyTpl;
 
     [JsonPropertyName("regency")]
-    public string RegencyStr => $"{_regency.type} {_regency.name}";
+    public string Regency => $"{_regencyTpl.type} {_regencyTpl.name}";
 
     [JsonPropertyName("province")]
     public string Province => _province;
 
-
     [JsonConstructor]
-    public DistrictContext((string, string) regency, string province)
+    public DistrictContext(string regency, string province)
     {
-        _regency = regency;
+        _regencyTpl = regency.SplitRegencyType();
         _province = province;
     }
 }

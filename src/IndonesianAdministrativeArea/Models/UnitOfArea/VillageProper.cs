@@ -29,7 +29,7 @@ public record VillageProper
 
     [JsonIgnore] string KelurahanDesa => $"{_type.TruncateType()} {_name}";
     [JsonIgnore] string Kecamatan => $"Kec. {_context.District}";
-    [JsonIgnore] string KabupatenKota => $"{Context.Regency.type.TruncateType()} {Context.Regency.name}";
+    [JsonIgnore] string KabupatenKota => $"{Context.RegencyTpl.type.TruncateType()} {Context.RegencyTpl.name}";
     [JsonIgnore] string Provinsi => _context.Province;
 
     public VillageProper(VillageDto villageDto,
@@ -38,19 +38,18 @@ public record VillageProper
         _id = villageDto.Code;
         _type = GetVillageType();
         _name = villageDto.Name;
-        _context = new VillageContext(districtDto.Name,
-            regencyDto.Name.SplitRegencyType(), provinceDto.Name);
+        _context = new VillageContext(districtDto.Name, regencyDto.Name.SplitRegencyType(), provinceDto.Name);
         _fullPath = $"{KelurahanDesa}, {Kecamatan}, {KabupatenKota}, {Provinsi}";
     }
 
     [JsonConstructor]
     public VillageProper(string id, string type, string name,
-        string district, string regency, string province, string fullPath)
+        VillageContext context, string fullPath)
     {
         _id = id.NormalizeId();
         _type = type;
         _name = name;
-        _context = new VillageContext(district, regency.SplitRegencyType(), province);
+        _context = context;
         _fullPath = fullPath;
     }
 
@@ -73,26 +72,33 @@ public record VillageProper
 public record VillageContext
 {
     private readonly string _district;
-    private readonly (string type, string name) _regency;
+    private readonly (string type, string name) _regencyTpl;
     private readonly string _province;
 
     [JsonPropertyName("district")]
     public string District => _district;
 
     [JsonIgnore]
-    public (string type, string name) Regency => _regency;
+    public (string type, string name) RegencyTpl => _regencyTpl;
 
     [JsonPropertyName("regency")]
-    public string RegencyStr => $"{_regency.type} {_regency.name}";
+    public string Regency => $"{_regencyTpl.type} {_regencyTpl.name}";
 
     [JsonPropertyName("province")]
     public string Province => _province;
 
-    [JsonConstructor]
     public VillageContext(string district, (string, string) regency, string province)
     {
         _district = district;
-        _regency = regency;
+        _regencyTpl = regency;
+        _province = province;
+    }
+
+    [JsonConstructor]
+    public VillageContext(string district, string regency, string province)
+    {
+        _district = district;
+        _regencyTpl = regency.SplitRegencyType();
         _province = province;
     }
 }
