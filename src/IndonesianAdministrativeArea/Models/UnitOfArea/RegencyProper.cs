@@ -44,7 +44,7 @@ public record RegencyProper
     public RegencyProper(string id, string type, string name,
         string province, string fullPath)
     {
-        _id = id;
+        _id = id.NormalizeId();
         _regency = (type, name);
         _province = province;
         _fullPath = fullPath;

@@ -49,7 +49,7 @@ public record DistrictProper
     public DistrictProper(string id, string type, string name,
         string regency, string province, string fullPath)
     {
-        _id = id;
+        _id = id.NormalizeId();
         _type = type;
         _name = name;
         _regency = regency.SplitRegencyType();

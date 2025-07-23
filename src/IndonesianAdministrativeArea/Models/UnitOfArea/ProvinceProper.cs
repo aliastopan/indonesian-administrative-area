@@ -1,4 +1,5 @@
 using System.Text.Json.Serialization;
+using IndonesianAdministrativeArea.Extensions;
 using IndonesianAdministrativeArea.Models.Dtos;
 
 namespace IndonesianAdministrativeArea.Models.UnitOfArea;
@@ -34,7 +35,7 @@ public record ProvinceProper
     [JsonConstructor]
     public ProvinceProper(string id, string type,string name, string fullPath)
     {
-        _id = id;
+        _id = id.NormalizeId();
         _type = type;
         _name = name;
         _fullPath = fullPath;

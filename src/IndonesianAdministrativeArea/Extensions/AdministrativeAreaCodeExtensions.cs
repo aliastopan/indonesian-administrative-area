@@ -28,4 +28,9 @@ public static class AdministrativeAreaCodeExtensions
 
         return $"{parts[0]}.{parts[1]}.{parts[2]}";
     }
+
+    public static string NormalizeId(this string id)
+    {
+        return id.Replace(".", string.Empty);
+    }
 }

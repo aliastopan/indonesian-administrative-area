@@ -56,7 +56,7 @@ public record VillageProper
     public VillageProper(string id, string type, string name,
         string district, string regency, string province, string fullPath)
     {
-        _id = id;
+        _id = id.NormalizeId();
         _type = type;
         _name = name;
         _district = district;
