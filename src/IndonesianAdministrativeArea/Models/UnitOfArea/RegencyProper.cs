@@ -46,6 +46,7 @@ public record RegencyProper
     {
         _id = id.NormalizeId();
         _regency = (type, name);
+        _type = _regency.type;
         _context = context;
         _fullPath = fullPath;
     }
