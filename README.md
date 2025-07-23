@@ -132,14 +132,18 @@ Repositori ini menyediakan data JSON untuk semua wilayah administratif di Indone
     "id": "35.78",
     "type": "Kota",
     "name": "Surabaya",
-    "province": "Jawa Timur",
+    "context": {
+      "province": "Jawa Timur"
+    },
     "full_path": "Kota Surabaya, Jawa Timur"
   },
   {
     "id": "35.79",
     "type": "Kota",
     "name": "Batu",
-    "province": "Jawa Timur",
+    "context": {
+      "province": "Jawa Timur"
+    },
     "full_path": "Kota Batu, Jawa Timur"
   },
   ...
@@ -154,16 +158,20 @@ Repositori ini menyediakan data JSON untuk semua wilayah administratif di Indone
     "id": "35.78.24",
     "type": "Kecamatan",
     "name": "Tenggilis Mejoyo",
-    "regency": "Kota Surabaya",
-    "province": "Jawa Timur",
+    "context": {
+      "regency": "Kota Surabaya",
+      "province": "Jawa Timur"
+    },
     "full_path": "Kec. Tenggilis Mejoyo, Kota Surabaya, Jawa Timur"
   },
   {
     "id": "35.78.25",
     "type": "Kecamatan",
     "name": "Gunung Anyar",
-    "regency": "Kota Surabaya",
-    "province": "Jawa Timur",
+    "context": {
+      "regency": "Kota Surabaya",
+      "province": "Jawa Timur"
+    },
     "full_path": "Kec. Gunung Anyar, Kota Surabaya, Jawa Timur"
   },
   ...
@@ -178,20 +186,22 @@ Repositori ini menyediakan data JSON untuk semua wilayah administratif di Indone
     "id": "35.78.24.1001",
     "type": "Kelurahan",
     "name": "Kutisari",
-    "district": "Tenggilis Mejoyo",
-    "regency": "Kota Surabaya",
-    "province": "Jawa Timur",
+    "context": {
+      "district": "Tenggilis Mejoyo",
+      "regency": "Kota Surabaya",
+      "province": "Jawa Timur"
+    },
     "full_path": "Kel. Kutisari, Kec. Tenggilis Mejoyo, Kota Surabaya, Jawa Timur"
   },
   {
     "id": "35.78.24.1002",
     "type": "Kelurahan",
     "name": "Kendangsari",
-    "district": "Tenggilis Mejoyo",
-    "regency": "Kota Surabaya",
-    "province": "Jawa Timur",
-    "full_path": "Kel. Kendangsari, Kec. Tenggilis Mejoyo, Kota Surabaya, Jawa Timur"
-  },
+    "context": {
+      "district": "Tenggilis Mejoyo",
+      "regency": "Kota Surabaya",
+      "province": "Jawa Timur"
+    },
   ...
 ]
 ```
