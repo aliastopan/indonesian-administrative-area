@@ -48,13 +48,13 @@ internal class Program
         List<DistrictDto> districtDtos = JsonService.Deserializer.DeserializeDto<DistrictDto>("districts.json");
         List<DistrictProper> districts = districtDtos.MapDistrictDtosToPropers(regencyDtos, provinceDtos);
 
-        // List<VillageDto> villageDtos = JsonService.Deserializer.DeserializeDto<VillageDto>("villages.json");
-        // List<VillageProper> villages = villageDtos.MapVillageDtosToPropers(districtDtos, regencyDtos, provinceDtos);
+        List<VillageDto> villageDtos = JsonService.Deserializer.DeserializeDto<VillageDto>("villages.json");
+        List<VillageProper> villages = villageDtos.MapVillageDtosToPropers(districtDtos, regencyDtos, provinceDtos);
 
         IndexService.SerializeIndexJson<ProvinceProper>(provinces, "province.index.json");
         IndexService.SerializeIndexJson<RegencyProper>(regencies, "regencies.index.json");
         IndexService.SerializeIndexJson<DistrictProper>(districts, "district.index.json");
-        // IndexService.SerializeIndexJson<VillageProper>(villages, "villages.index.json");
+        IndexService.SerializeIndexJson<VillageProper>(villages, "villages.index.json");
 
         stopwatch.Stop();
 

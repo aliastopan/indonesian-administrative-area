@@ -9,9 +9,7 @@ public record VillageProper
     private readonly string _id;
     private readonly string _type = "Kelurahan/Desa";
     private readonly string _name;
-    private readonly string _district;
-    private readonly (string type, string name) _regency;
-    private readonly string _province;
+    private readonly VillageContext _context;
     private readonly string _fullPath;
 
     [JsonPropertyName("id")]
@@ -23,32 +21,25 @@ public record VillageProper
     [JsonPropertyName("name")]
     public string Name => _name;
 
-    [JsonPropertyName("district")]
-    public string District => _district;
-
-    [JsonPropertyName("regency")]
-    public string Regency => $"{_regency.type} {_regency.name}";
-
-    [JsonPropertyName("province")]
-    public string Province => _province;
+    [JsonPropertyName("context")]
+    public VillageContext Context => _context;
 
     [JsonPropertyName("full_path")]
     public string FullPath => _fullPath;
 
     [JsonIgnore] string KelurahanDesa => $"{_type.TruncateType()} {_name}";
-    [JsonIgnore] string Kecamatan => $"Kec. {_district}";
-    [JsonIgnore] string KabupatenKota => $"{_regency.type.TruncateType()} {_regency.name}";
-    [JsonIgnore] string Provinsi => _province;
+    [JsonIgnore] string Kecamatan => $"Kec. {_context.District}";
+    [JsonIgnore] string KabupatenKota => $"{Context.Regency.type.TruncateType()} {Context.Regency.name}";
+    [JsonIgnore] string Provinsi => _context.Province;
 
-    public VillageProper(VillageDto villageDto, DistrictDto districtDto, RegencyDto regencyDto, ProvinceDto provinceDto)
+    public VillageProper(VillageDto villageDto,
+        DistrictDto districtDto, RegencyDto regencyDto, ProvinceDto provinceDto)
     {
-        _regency = regencyDto.Name.SplitRegencyType();
-
         _id = villageDto.Code;
         _type = GetVillageType();
         _name = villageDto.Name;
-        _district = districtDto.Name;
-        _province = provinceDto.Name;
+        _context = new VillageContext(districtDto.Name,
+            regencyDto.Name.SplitRegencyType(), provinceDto.Name);
         _fullPath = $"{KelurahanDesa}, {Kecamatan}, {KabupatenKota}, {Provinsi}";
     }
 
@@ -59,9 +50,7 @@ public record VillageProper
         _id = id.NormalizeId();
         _type = type;
         _name = name;
-        _district = district;
-        _regency = regency.SplitRegencyType();
-        _province = province;
+        _context = new VillageContext(district, regency.SplitRegencyType(), province);
         _fullPath = fullPath;
     }
 
@@ -78,5 +67,32 @@ public record VillageProper
         return firstDigit == 1
             ? "Kelurahan"
             : "Desa";
+    }
+}
+
+public record VillageContext
+{
+    private readonly string _district;
+    private readonly (string type, string name) _regency;
+    private readonly string _province;
+
+    [JsonPropertyName("district")]
+    public string District => _district;
+
+    [JsonIgnore]
+    public (string type, string name) Regency => _regency;
+
+    [JsonPropertyName("regency")]
+    public string RegencyStr => $"{_regency.type} {_regency.name}";
+
+    [JsonPropertyName("province")]
+    public string Province => _province;
+
+    [JsonConstructor]
+    public VillageContext(string district, (string, string) regency, string province)
+    {
+        _district = district;
+        _regency = regency;
+        _province = province;
     }
 }
